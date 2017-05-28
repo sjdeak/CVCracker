@@ -6,19 +6,18 @@ class Recognizer:
         self.result = []
 
         self.raw_im_process()
-        self.find_recs()
-        self.filter_and_resort_recs()
+        self.find_contours()
+        self.find_target_recs()
         self.loop_process(func=self.single_recognize)
 
     def raw_im_process(self):
         pass
 
-    def find_recs(self):
+    def find_contours(self):
         im, self.contours, hier = cv2.findContours(
-            self.im, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
-        self.recs = list(map(cv2.boundingRect, self.contours))
+            self.im, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 
-    def filter_and_resort_recs(self):
+    def find_target_recs(self):
         pass
 
     def loop_process(self, func):
@@ -28,3 +27,7 @@ class Recognizer:
 
     def single_recognize(self, im):  # 此处im已经被二值化处理
         pass
+
+    def debug(self):
+        cv2.imshow('hi', self.im)
+        cv2.waitKey(0)

@@ -21,7 +21,8 @@ class LightRecognizer(Recognizer):
     def raw_im_process(self):
         self.im = cv2.inRange(self.raw_im, *RED)
 
-    def filter_and_resort_recs(self):
+    def find_target_recs(self):
+        self.recs = list(map(cv2.boundingRect, self.contours))
         self.recs.sort(key=lambda it: it[2] * it[3], reverse=True)  # 根据面积排序
         self.recs = self.recs[:5]
         self.recs.sort()  # 根据左右位置排序
