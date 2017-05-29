@@ -2,15 +2,19 @@ import cv2
 
 class Recognizer:
     def __init__(self, imname):
+        """
+        :param imname: 待处理图片的文件路径 
+        """
         self.raw_im = cv2.imread(imname)
-        self.result = []
+        self.result = []  # result: 存放最终识别结果
 
         self.raw_im_process()
-        self.find_contours()
+        self.find_contours()  # 找出所有轮廓
         self.find_target_recs()
         self.loop_process(func=self.single_recognize)
 
     def raw_im_process(self):
+        """原始图像预处理"""
         pass
 
     def find_contours(self):
@@ -18,16 +22,27 @@ class Recognizer:
             self.im, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 
     def find_target_recs(self):
+        """
+        筛选出目标矩形
+        Light_recognizer: 五个数字的轮扣矩形
+        Hand_recognizer: 九宫格内的九个矩形格子
+        """
         pass
 
     def loop_process(self, func):
         for x, y, w, h in self.recs:
             (x0, y0), (x1, y1) = (x, y), (x + w, y + h)
+            # print((x0, y0), (x1, y1))
             self.result.append(func(self.im[y0:y1, x0:x1]))
 
-    def single_recognize(self, im):  # 此处im已经被二值化处理
+    def single_recognize(self, im):
+        """
+        识别单个数字
+        :param im: 从二值化后的原图中切割出的单个数字图片  
+        """
         pass
 
-    def debug(self):
-        cv2.imshow('hi', self.im)
+    def debugshow(self):
+        """调试函数，显示self.im"""
+        cv2.imshow('self.im', self.im)
         cv2.waitKey(0)

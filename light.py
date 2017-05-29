@@ -20,6 +20,7 @@ class LightRecognizer(Recognizer):
 
     def raw_im_process(self):
         self.im = cv2.inRange(self.raw_im, *RED)
+        # self.debugshow()
 
     def find_target_recs(self):
         self.recs = list(map(cv2.boundingRect, self.contours))
@@ -29,7 +30,7 @@ class LightRecognizer(Recognizer):
 
     def check_line(self, pos, direction, im):
         h, w = im.shape
-        dis = im.shape[1] // 6  # 宽度的1/4
+        dis = im.shape[1] // 7  # 宽度的1/4
 
         for i in range(-dis, dis):
             p = list(pos)
@@ -38,6 +39,7 @@ class LightRecognizer(Recognizer):
             nr, nc = p
             if not (nr in range(h) and nc in range(w)):
                 continue
+            # todo 不能1个白点就判1
             if im[nr, nc] == 255:
                 return 1
         else:
@@ -50,7 +52,7 @@ class LightRecognizer(Recognizer):
             return 1
 
         ch, cw = (h // 2, w // 2)
-        offset = w // 10
+        offset = w // 8
 
         a, d = (0, cw), (h, cw)
         b, f = (ch // 2, offset), (ch // 2, w)
@@ -72,4 +74,5 @@ class LightRecognizer(Recognizer):
 
 
 if __name__ == '__main__':
-    print(LightRecognizer('test_im/52648.jpg').result)
+    # print(LightRecognizer('test_im/98564.jpg').result)
+    print(LightRecognizer('material_light/34921.jpg').result)
