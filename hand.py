@@ -3,9 +3,6 @@ import numpy as np
 from recognizer import Recognizer
 
 class HandRecognizer(Recognizer):
-    def crop_light_image(self):
-        pass
-
     def raw_im_process(self):
         self.im = cv2.cvtColor(self.raw_im, cv2.COLOR_BGR2GRAY)
         ret, self.im = cv2.threshold(self.im, 150, 255, cv2.THRESH_BINARY)# 不够白的都变黑
@@ -93,12 +90,19 @@ class HandRecognizer(Recognizer):
         # todo 自己训练样本时记得去掉这行
         im = 255 - im  # 训练数据是黑底白字的
 
-        # cv2.imshow('hi', im)
-        # cv2.waitKey(0)
-
         im = im.reshape(-1, 400).astype(np.float32)
         retval, results, neign_resp, dists = self.knn.findNearest(im, 3)
-        print(results)
+        return int(results[0][0])
+
+    def crop_light_image(self):
+        rec0 = self.recs[0]
+        rec2 = self.recs[2]
+        w, h = rec0[2], rec0[3]
+
+        x0, y0 = map(int, (rec0[0] + 1 / 2 * w, rec0[1] - 3 / 2 * h))  # light 左上角 todo 高度超出怎么办
+        x1, y1 = map(int, (rec2[0] + 1 / 2 * w, rec2[1] - 1 / 8 * h))  # light 右下角
+
+        return self.raw_im[y0:y1, x0:x1]
 
 
 

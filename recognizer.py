@@ -42,7 +42,7 @@ class Recognizer:
         """
         pass
 
-    def debugshow(self):
+    def debug(self, im):
         """调试函数，显示self.im"""
-        cv2.imshow('self.im', self.im)
+        cv2.imshow('dummy', im)
         cv2.waitKey(0)
