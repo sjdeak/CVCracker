@@ -61,7 +61,7 @@ def solve(im):
 if __name__ == '__main__':
     raw_im = cv2.imread('test_im/bad.jpg')
 
-    # todo 去掉白光
+
     im = cv2.inRange(raw_im, np.array([0, 0, 210]), np.array([255, 255, 255]))
 
     # cv2.imshow('二值化', im)
@@ -72,7 +72,7 @@ if __name__ == '__main__':
     # 根据轮廓矩形面积排序
     contours = sorted(zip(contours, recs), key=lambda it: it[1][2] * it[1][3], reverse=True)
 
-    # todo 检查五个轮廓距离是否够近
+
     light_pos = []
     for cnt in contours[:5]:
         x, y, w, h = cnt[1]

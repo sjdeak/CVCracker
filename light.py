@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 from recognizer import Recognizer
 
-
+# todo 去掉白光
 RED = (np.array([0, 0, 210]), np.array([255, 255, 255]))
 
 
@@ -23,6 +23,7 @@ class LightRecognizer(Recognizer):
         # self.debugshow()
 
     def find_target_recs(self):
+        # todo 检查五个轮廓距离是否够近
         self.recs = list(map(cv2.boundingRect, self.contours))
         self.recs.sort(key=lambda it: it[2] * it[3], reverse=True)  # 根据面积排序
         self.recs = self.recs[:5]

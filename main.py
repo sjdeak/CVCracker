@@ -2,7 +2,8 @@ import cv2
 import numpy as np
 from hand import HandRecognizer
 from light import LightRecognizer
-
+from tkinter import *
+import tktools
 
 FILE_NAME = 'test_im/real3.jpg'
 
@@ -12,19 +13,20 @@ cv2.imwrite('light.jpg', light_im)
 
 lr = LightRecognizer('light.jpg')
 
-
-from tkinter import *
-
 root = Tk()
 root.geometry('300x300')
 
 
-Label(text=''.join(str(n) for n in lr.result)).grid(row=0, columnspan=3, sticky=NSEW)
+Label(text=''.join(str(n) for n in lr.result), relief=GROOVE).grid(row=0, columnspan=3, sticky=NSEW)
 hand_result = np.array(hr.result, dtype=np.uint8).reshape(3,3)
 
 for i in range(3):
     for j in range(3):
         n = hand_result[i][j]
-        Label(text=str(n)).grid(row=i+1, column=j, sticky=NSEW)
+        Label(text=str(n), relief=GROOVE).grid(row=i+1, column=j, sticky=NSEW)
+
+tktools.set_grid_stretchable(root)
 
 mainloop()
+
+# todo shift + cmd + () ""...
