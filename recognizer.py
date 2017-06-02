@@ -6,6 +6,8 @@ class Recognizer:
         :param imname: 待处理图片的文件路径 
         """
         self.raw_im = cv2.imread(imname)
+        self.im = None
+        self.recs = None
         self.result = []  # result: 存放最终识别结果
 
         self.raw_im_process()
@@ -29,9 +31,9 @@ class Recognizer:
         """
         pass
 
-    def loop_process(self, func):
+    def loop_process(self, func, pad=0):
         for x, y, w, h in self.recs:
-            (x0, y0), (x1, y1) = (x, y), (x + w, y + h)
+            x0, y0, x1, y1 = map(int, (x + pad * w, y + pad * h, x + w - pad * w, y + h - pad * h))
             # print((x0, y0), (x1, y1))
             self.result.append(func(self.im[y0:y1, x0:x1]))
 

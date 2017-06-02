@@ -20,7 +20,6 @@ class LightRecognizer(Recognizer):
 
     def raw_im_process(self):
         self.im = cv2.inRange(self.raw_im, *RED)
-        # self.debugshow()
 
     def find_target_recs(self):
         # todo 检查五个轮廓距离是否够近

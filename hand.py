@@ -1,5 +1,7 @@
 import cv2
 import numpy as np
+from mathtools import dist
+from collections import namedtuple
 from recognizer import Recognizer
 
 class HandRecognizer(Recognizer):
@@ -9,7 +11,8 @@ class HandRecognizer(Recognizer):
         # cv2.imshow('hi', self.im)
         # cv2.waitKey(0)
 
-    def find_target_recs(self):  # 获取矩形、筛选、恢复现实顺序
+    def filter_contours(self):
+        """筛选出九个矩形格子"""
         def legal(rec):
             (cx, cy), (w, h), angle = rec
 
@@ -44,34 +47,57 @@ class HandRecognizer(Recognizer):
         #     box = cv2.boxPoints(rec)
         #     box = np.int0(box)
         #     cv2.drawContours(self.im, [box], 0, 100, 2)
-        # self.debugshow()
+        # self._debug()
 
-        # 必须保证这九个就是目标轮廓
-        for i in range(9):
-            rec = self.recs[i]
-            w, h = max(*rec[1]), min(*rec[1])
-
-            box = [tuple(b) for b in cv2.boxPoints(rec)]
+    def choose_target_perspective(self):
+        RectCorner = namedtuple('RectCorner', ['lu', 'ru', 'ld', 'rd'])
+        self.raw_corners = []
+        for i, rec in enumerate(self.recs):
+            box = [tuple(map(int, b)) for b in cv2.boxPoints(rec)]
             box.sort(key=lambda it: it[1])
-            box = sorted(box[:2]) + box[2:]
-            left_up = box[0]
-            self.recs[i] = tuple(map(int, (left_up[0], left_up[1], w, h)))
-            # print(self.recs[i])
-
+            box = sorted(box[:2]) + sorted(box[2:])
+            # print('test box orders', box)
+            self.raw_corners.append(RectCorner(*box))  # raw_corners: 九个格子的四个角
 
         # 恢复现实顺序
         # 0 1 2
         # 3 4 5
         # 6 7 8
-        self.recs.sort(key=lambda it: it[1])  # 先按y轴排序
-        temp = [sorted(self.recs[i:i+3]) for i in range(0, 9, 3)]  # 每三个一组按x轴排序
+        self.raw_corners.sort(key=lambda it: it.lu[1]) # 先按y轴排序
+        temp = [sorted(self.raw_corners[i:i + 3], key=lambda it: it.lu)
+                    for i in range(0, 9, 3)]  # 每三个一组按x轴排序
+        self.raw_corners = temp[0] + temp[1] + temp[2]
+
+        sudoku = RectCorner(self.raw_corners[0].lu, self.raw_corners[2].ru,
+                            self.raw_corners[6].ld, self.raw_corners[8].rd)
+        sudoku_width = int(max(dist(sudoku.lu, sudoku.ru), dist(sudoku.ld, sudoku.rd)))
+        sudoku_height = int(max(dist(sudoku.lu, sudoku.ld), dist(sudoku.ru, sudoku.rd)))
+        # print(sudoku, '|', sudoku_width, sudoku_height)
+        target = ((0, 0), (sudoku_width, 0), (0, sudoku_height), (sudoku_width, sudoku_height))
+
+
+        H = cv2.getPerspectiveTransform(np.array(sudoku, dtype=np.float32),
+                                        np.array(target, dtype=np.float32))
+
+        self.im = cv2.warpPerspective(self.im, H, (sudoku_width, sudoku_height))
+        # self._debug(self.im)
+
+    def find_target_recs(self):  # 恢复现实顺序
+        self.filter_contours()  # 以后程序的正确运行的前提：这九个轮廓就是目标轮廓
+        self.choose_target_perspective()
+
+        self.find_contours()
+        self.recs = list(map(cv2.boundingRect, self.contours))
+        self.recs.sort(key=lambda it: it[2] * it[3], reverse=True)
+        self.recs = sorted(self.recs[:9], key=lambda it: it[1])
+        temp = [sorted(self.recs[i:i + 3], key=lambda it: it[0])
+                for i in range(0, 9, 3)]  # 每三个一组按x轴排序
         self.recs = temp[0] + temp[1] + temp[2]
-        # print(self.recs)
 
 
     def loop_process(self, func):
         self.init_knn()
-        Recognizer.loop_process(self, func)
+        Recognizer.loop_process(self, func, pad=0.05)
 
     def init_knn(self):
         # todo pickle it
@@ -86,6 +112,7 @@ class HandRecognizer(Recognizer):
         self.knn.train(train_data, cv2.ml.ROW_SAMPLE, train_label)
 
     def single_recognize(self, im):
+        # self._debug(im)
         im = cv2.resize(im, (20, 20))
         # todo 自己训练样本时记得去掉这行
         im = 255 - im  # 训练数据是黑底白字的
@@ -95,13 +122,15 @@ class HandRecognizer(Recognizer):
         return int(results[0][0])
 
     def crop_light_image(self):
-        rec0 = self.recs[0]
-        rec2 = self.recs[2]
-        w, h = rec0[2], rec0[3]
+        rec0 = self.raw_corners[0].lu
+        rec2 = self.raw_corners[2].lu
+        w, h = (self.raw_corners[0].ru[0] - self.raw_corners[0].lu[0],
+                self.raw_corners[0].ld[1] - self.raw_corners[0].lu[1])
 
         x0, y0 = map(int, (rec0[0] + 1 / 2 * w, rec0[1] - 3 / 2 * h))  # light 左上角 todo 高度超出怎么办
         x1, y1 = map(int, (rec2[0] + 1 / 2 * w, rec2[1] - 1 / 8 * h))  # light 右下角
 
+        # self._debug(self.raw_im[y0:y1, x0:x1])
         return self.raw_im[y0:y1, x0:x1]
 
 
