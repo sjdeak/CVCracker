@@ -9,9 +9,7 @@ FILE_NAME = 'test_im/reality.jpg'
 
 hr = HandRecognizer(FILE_NAME)
 light_im = hr.crop_light_image()
-cv2.imwrite('light.jpg', light_im)
-
-lr = LightRecognizer('light.jpg')
+lr = LightRecognizer(light_im, already_read=True)
 
 root = Tk()
 root.geometry('300x300')

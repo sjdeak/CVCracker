@@ -1,11 +1,15 @@
 import cv2
 
 class Recognizer:
-    def __init__(self, imname):
+    def __init__(self, imname, already_read=False):
         """
-        :param imname: 待处理图片的文件路径 
+        :param imname: already_read=False时时待处理图片的文件路径，already_read=True时是已读入的图片
+        :param already_read: 表示imname的类型
         """
-        self.raw_im = cv2.imread(imname)
+        if not already_read:
+            self.raw_im = cv2.imread(imname)
+        else:
+            self.raw_im = imname
         self.im = None
         self.recs = None
         self.result = []  # result: 存放最终识别结果

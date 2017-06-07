@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39a2be9c-2f73-4394-8e94-35f824fc6ad6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/light.jpg" afterPath="$PROJECT_DIR$/light.jpg" />
+    <list default="true" id="39a2be9c-2f73-4394-8e94-35f824fc6ad6" name="Default" comment="test pycharm vcs integration">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/material.m4v" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archives/learnvideo.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/othertools.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/train.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trainer.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/light.jpg" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/learnknn/ocv-py-tutorial-knn.py" afterPath="$PROJECT_DIR$/archives/learnknn/ocv-py-tutorial-knn.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/learnknn/pca_gen_data.py" afterPath="$PROJECT_DIR$/archives/learnknn/pca_gen_data.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/learnknn/pca_imtools.py" afterPath="$PROJECT_DIR$/archives/learnknn/pca_imtools.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/learnknn/pca_knn_class.py" afterPath="$PROJECT_DIR$/archives/learnknn/pca_knn_class.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/learnknn/pca_knnexample.py" afterPath="$PROJECT_DIR$/archives/learnknn/pca_knnexample.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/learnknn/points_normal_1.pkl" afterPath="$PROJECT_DIR$/archives/learnknn/points_normal_1.pkl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/learnknn/points_normal_2.pkl" afterPath="$PROJECT_DIR$/archives/learnknn/points_normal_2.pkl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/learnknn/points_ring_1.pkl" afterPath="$PROJECT_DIR$/archives/learnknn/points_ring_1.pkl" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/learnknn/points_ring_2.pkl" afterPath="$PROJECT_DIR$/archives/learnknn/points_ring_2.pkl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hand.py" afterPath="$PROJECT_DIR$/hand.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/light.py" afterPath="$PROJECT_DIR$/light.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recognizer.py" afterPath="$PROJECT_DIR$/recognizer.py" />
     </list>
@@ -23,23 +36,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.py">
+      <file leaf-file-name="trainer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trainer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="20" column="15" lean-forward="false" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+            <state relative-caret-position="456">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="train.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="415">
+              <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="light.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/light.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hand.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="hand.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hand.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+            <state relative-caret-position="1387">
+              <caret line="109" column="42" lean-forward="false" selection-start-line="109" selection-start-column="42" selection-end-line="109" selection-end-column="42" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#440#1687#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -48,8 +86,8 @@
       <file leaf-file-name="recognizer.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/recognizer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="35" column="40" lean-forward="true" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+            <state relative-caret-position="228">
+              <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -70,6 +108,10 @@
       <find>it</find>
       <find>result</find>
       <find>print</find>
+      <find>print('try'</find>
+      <find>resize</find>
+      <find>pad</find>
+      <find>_debug</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -96,9 +138,13 @@
         <option value="$PROJECT_DIR$/archives/light_no_OOP.py" />
         <option value="$PROJECT_DIR$/light.py" />
         <option value="$PROJECT_DIR$/mathtools.py" />
-        <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/recognizer.py" />
         <option value="$PROJECT_DIR$/hand.py" />
+        <option value="$PROJECT_DIR$/othertools.py" />
+        <option value="$PROJECT_DIR$/archives/learnvideo.py" />
+        <option value="$PROJECT_DIR$/recognizer.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/trainer.py" />
+        <option value="$PROJECT_DIR$/train.py" />
       </list>
     </option>
   </component>
@@ -170,7 +216,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test_im" />
+              <option name="myItemId" value="train_hand" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CVCracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CVCracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="archives" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -194,7 +254,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="full.screen.before.presentation.mode" value="false" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -206,14 +266,14 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/test_im" />
-      <recent name="$PROJECT_DIR$/learnknn" />
-      <recent name="$PROJECT_DIR$/archives" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/archives" />
+      <recent name="$PROJECT_DIR$/test_im" />
+      <recent name="$PROJECT_DIR$/learnknn" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -242,42 +302,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="CVCracker" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hand.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="knnexample" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="CVCracker" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learnknn/pca_knnexample.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="learnknn" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="CVCracker" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learnknn/ocv-py-tutorial-knn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -314,6 +338,42 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="CVCracker" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="learnvideo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/archives" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CVCracker" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/archives/learnvideo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="trainer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CVCracker" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/trainer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -385,18 +445,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.hand" />
-      <item index="1" class="java.lang.String" itemvalue="Python.knnexample" />
-      <item index="2" class="java.lang.String" itemvalue="Python.learnknn" />
-      <item index="3" class="java.lang.String" itemvalue="Python.light" />
-      <item index="4" class="java.lang.String" itemvalue="Python.main" />
+      <item index="1" class="java.lang.String" itemvalue="Python.light" />
+      <item index="2" class="java.lang.String" itemvalue="Python.main" />
+      <item index="3" class="java.lang.String" itemvalue="Python.learnvideo" />
+      <item index="4" class="java.lang.String" itemvalue="Python.trainer" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.main" />
-        <item index="1" class="java.lang.String" itemvalue="Python.hand" />
-        <item index="2" class="java.lang.String" itemvalue="Python.light" />
-        <item index="3" class="java.lang.String" itemvalue="Python.learnknn" />
-        <item index="4" class="java.lang.String" itemvalue="Python.knnexample" />
+        <item index="1" class="java.lang.String" itemvalue="Python.trainer" />
+        <item index="2" class="java.lang.String" itemvalue="Python.learnvideo" />
+        <item index="3" class="java.lang.String" itemvalue="Python.hand" />
+        <item index="4" class="java.lang.String" itemvalue="Python.light" />
       </list>
     </recent_temporary>
   </component>
@@ -426,16 +486,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="81" y="23" width="1359" height="877" extended-state="6" />
+    <frame x="81" y="23" width="1359" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16482708" sideWeight="0.49538866" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32853717" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26258993" sideWeight="0.5021299" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32733813" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33093524" sideWeight="0.4978701" order="8" side_tool="false" content_ui="tabs" x="451" y="354" width="1292" height="282" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38369304" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32853717" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3441247" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992035" sideWeight="0.4978701" order="8" side_tool="false" content_ui="tabs" x="451" y="354" width="1292" height="282" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4028777" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24944812" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30695444" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1741486" sideWeight="0.5046113" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993174" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -445,7 +506,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32853717" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -498,167 +558,43 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test pycharm vcs integration" />
+    <option name="LAST_COMMIT_MESSAGE" value="test pycharm vcs integration" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/archives/archive.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recognizer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="33" lean-forward="false" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hand.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1159">
-          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/archives/light_no_OOP.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/archives/light_no_OOP.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/archives/light_no_OOP.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/archives/light_no_OOP.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/archives/light_no_OOP.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/archives/light_no_OOP.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1235">
-          <caret line="65" column="15" lean-forward="true" selection-start-line="65" selection-start-column="15" selection-end-line="65" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_im/bad.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/archives/light_no_OOP.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_im/light1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/material_light/91258.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/material_light/81396.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mytimer.py" />
-    <entry file="file://$PROJECT_DIR$/test_im/bad.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_im/final.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_im/maybe.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_im/board.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_im/81396.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/matplotlib/pyplot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="2841" column="4" lean-forward="false" selection-start-line="2841" selection-start-column="4" selection-end-line="2841" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learnknn/pca_knn_class.py">
+    <entry file="file://$PROJECT_DIR$/archives/learnknn/pca_knn_class.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learnknn/pca_gen_data.py">
+    <entry file="file://$PROJECT_DIR$/archives/learnknn/pca_gen_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learnknn/pca_knnexample.py">
+    <entry file="file://$PROJECT_DIR$/archives/learnknn/pca_knnexample.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learnknn/pca_imtools.py">
+    <entry file="file://$PROJECT_DIR$/archives/learnknn/pca_imtools.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="505">
           <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/digits.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/archives/archive.py">
@@ -725,7 +661,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learnknn/ocv-py-tutorial-knn.py">
+    <entry file="file://$PROJECT_DIR$/archives/learnknn/ocv-py-tutorial-knn.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="19" column="53" lean-forward="false" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
@@ -770,20 +706,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/light.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="30" column="45" lean-forward="false" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mathtools.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-          <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/digits.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/穿线法参考图.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_im/reality.jpg">
@@ -791,29 +728,99 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/material_light/19563.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/material_hand/148623975.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/othertools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_hand/1/f1e0dd9e99487582267d974527cbe686.jpg" />
+    <entry file="file://$PROJECT_DIR$/train_hand/2/a481f8058c4d6bd3b52b17dd08b6858e.jpg" />
+    <entry file="file://$PROJECT_DIR$/train_hand/3/78b9fd8791aae4c599ae092520a14b1d.jpg" />
+    <entry file="file://$PROJECT_DIR$/train_hand/9/d2b16d824d83b1fe165f80e50117855d.jpg" />
+    <entry file="file://$PROJECT_DIR$/train_hand/8/cdc40972a4af3f9e0de09723be60e641.jpg" />
+    <entry file="file://$PROJECT_DIR$/train_hand/7/7858a8c65b4d9a476c90a526beb1d8f3.jpg" />
+    <entry file="file://$PROJECT_DIR$/train_hand/6/3ffb784be6c27078f06feb9b459fe787.jpg" />
+    <entry file="file://$PROJECT_DIR$/train_hand/5/560f7b518a0f15bc2f7d6c0ca34553f6.jpg" />
+    <entry file="file://$PROJECT_DIR$/train_hand/4/4fc9b13e2215bdc7b7ca335bdec548bd.jpg" />
+    <entry file="file://$PROJECT_DIR$/train_hand/3/25d4c0e77fd5d8d1adc82313dd13775b.jpg" />
+    <entry file="file://$PROJECT_DIR$/train_hand/2/102395e0a0becceae74e3860ae4f3da9.jpg" />
+    <entry file="file://$PROJECT_DIR$/train_hand/1/3d73c6d536f8f7713629b0aa4420a9d5.jpg" />
+    <entry file="file://$PROJECT_DIR$/light.jpg" />
+    <entry file="file://$PROJECT_DIR$/archives/learnvideo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_hand/7/21c64447c7e61f6cf2d77f46f14bf09c.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="20" column="15" lean-forward="false" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-          <folding />
+        <state relative-caret-position="456">
+          <caret line="29" column="29" lean-forward="false" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/recognizer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="35" column="40" lean-forward="true" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+        <state relative-caret-position="228">
+          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hand.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        <state relative-caret-position="1387">
+          <caret line="109" column="42" lean-forward="false" selection-start-line="109" selection-start-column="42" selection-end-line="109" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#440#1687#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trainer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/light.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
