@@ -59,7 +59,7 @@ def solve(im):
         return 'Error!'
 
 if __name__ == '__main__':
-    raw_im = cv2.imread('test_im/bad.jpg')
+    raw_im = cv2.imread('test_im/bad_light1.jpg')
 
 
     im = cv2.inRange(raw_im, np.array([0, 0, 210]), np.array([255, 255, 255]))

@@ -6,10 +6,7 @@ class Recognizer:
         :param imname: already_read=False时时待处理图片的文件路径，already_read=True时是已读入的图片
         :param already_read: 表示imname的类型
         """
-        if not already_read:
-            self.raw_im = cv2.imread(imname)
-        else:
-            self.raw_im = imname
+        self.raw_im = imname if already_read else cv2.imread(imname)
         self.im = None
         self.recs = None
         self.result = []  # result: 存放最终识别结果

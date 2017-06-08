@@ -8,8 +8,6 @@ class HandRecognizer(Recognizer):
     def raw_im_process(self):
         self.im = cv2.cvtColor(self.raw_im, cv2.COLOR_BGR2GRAY)
         ret, self.im = cv2.threshold(self.im, 150, 255, cv2.THRESH_BINARY)# 不够白的都变黑
-        # cv2.imshow('hi', self.im)
-        # cv2.waitKey(0)
 
     def filter_contours(self):
         """筛选出九个矩形格子"""

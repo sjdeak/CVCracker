@@ -5,7 +5,7 @@ from light import LightRecognizer
 from tkinter import *
 import tktools
 
-FILE_NAME = 'test_im/reality.jpg'
+FILE_NAME = 'test_im/real1.jpg'
 
 hr = HandRecognizer(FILE_NAME)
 light_im = hr.crop_light_image()

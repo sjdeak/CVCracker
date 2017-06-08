@@ -2,22 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39a2be9c-2f73-4394-8e94-35f824fc6ad6" name="Default" comment="test pycharm vcs integration">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/material.m4v" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archives/learnvideo.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/othertools.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/train.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trainer.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/light.jpg" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/learnknn/ocv-py-tutorial-knn.py" afterPath="$PROJECT_DIR$/archives/learnknn/ocv-py-tutorial-knn.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/learnknn/pca_gen_data.py" afterPath="$PROJECT_DIR$/archives/learnknn/pca_gen_data.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/learnknn/pca_imtools.py" afterPath="$PROJECT_DIR$/archives/learnknn/pca_imtools.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/learnknn/pca_knn_class.py" afterPath="$PROJECT_DIR$/archives/learnknn/pca_knn_class.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/learnknn/pca_knnexample.py" afterPath="$PROJECT_DIR$/archives/learnknn/pca_knnexample.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/learnknn/points_normal_1.pkl" afterPath="$PROJECT_DIR$/archives/learnknn/points_normal_1.pkl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/learnknn/points_normal_2.pkl" afterPath="$PROJECT_DIR$/archives/learnknn/points_normal_2.pkl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/learnknn/points_ring_1.pkl" afterPath="$PROJECT_DIR$/archives/learnknn/points_ring_1.pkl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/learnknn/points_ring_2.pkl" afterPath="$PROJECT_DIR$/archives/learnknn/points_ring_2.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/instructions/穿线法参考图.jpg" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitiganore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_im/final.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_im/maybe.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_im/test3.jpg" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/digits.png" afterPath="$PROJECT_DIR$/raw_train_materials/digits.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/material.m4v" afterPath="$PROJECT_DIR$/raw_train_materials/material.m4v" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/material_hand/148623975.jpg" afterPath="$PROJECT_DIR$/archives/material_hand/148623975.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/material_hand/148723569.jpg" afterPath="$PROJECT_DIR$/archives/material_hand/148723569.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/material_hand/213895476.jpg" afterPath="$PROJECT_DIR$/archives/material_hand/213895476.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/material_hand/217389456.jpg" afterPath="$PROJECT_DIR$/archives/material_hand/217389456.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/material_hand/297543618.jpg" afterPath="$PROJECT_DIR$/archives/material_hand/297543618.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/material_hand/427539861.jpg" afterPath="$PROJECT_DIR$/archives/material_hand/427539861.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/material_hand/629418375.jpg" afterPath="$PROJECT_DIR$/archives/material_hand/629418375.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/material_hand/719428356.jpg" afterPath="$PROJECT_DIR$/archives/material_hand/719428356.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/material_hand/781496352.jpg" afterPath="$PROJECT_DIR$/archives/material_hand/781496352.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/material_hand/831527496.jpg" afterPath="$PROJECT_DIR$/archives/material_hand/831527496.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/material_hand/876345192.jpg" afterPath="$PROJECT_DIR$/archives/material_hand/876345192.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/material_hand/976318425.jpg" afterPath="$PROJECT_DIR$/archives/material_hand/976318425.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/material_light/19563.jpg" afterPath="$PROJECT_DIR$/archives/material_light/19563.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/material_light/34921.jpg" afterPath="$PROJECT_DIR$/archives/material_light/34921.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/material_light/46137.jpg" afterPath="$PROJECT_DIR$/archives/material_light/46137.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/material_light/57243.jpg" afterPath="$PROJECT_DIR$/archives/material_light/57243.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/material_light/57481.jpg" afterPath="$PROJECT_DIR$/archives/material_light/57481.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/material_light/64982.jpg" afterPath="$PROJECT_DIR$/archives/material_light/64982.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/material_light/68351.jpg" afterPath="$PROJECT_DIR$/archives/material_light/68351.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/material_light/71396.jpg" afterPath="$PROJECT_DIR$/archives/material_light/71396.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/material_light/78946.jpg" afterPath="$PROJECT_DIR$/archives/material_light/78946.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/material_light/81396.jpg" afterPath="$PROJECT_DIR$/archives/material_light/81396.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/material_light/91258.jpg" afterPath="$PROJECT_DIR$/archives/material_light/91258.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/material_light/93457.jpg" afterPath="$PROJECT_DIR$/archives/material_light/93457.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/temp" afterPath="$PROJECT_DIR$/archives/temp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test_im/bad.jpg" afterPath="$PROJECT_DIR$/test_im/bad_light1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test_im/reality.jpg" afterPath="$PROJECT_DIR$/test_im/real1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test_im/test4.jpg" afterPath="$PROJECT_DIR$/test_im/bad_light2.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/light_no_OOP.py" afterPath="$PROJECT_DIR$/archives/light_no_OOP.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hand.py" afterPath="$PROJECT_DIR$/hand.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recognizer.py" afterPath="$PROJECT_DIR$/recognizer.py" />
@@ -32,63 +53,26 @@
   <component name="ChangesViewManager" flattened_view="false" />
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="CVCracker" />
+    <favorites_list name="CVCracker">
+      <favorite_root url="file://$PROJECT_DIR$/hand.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/main.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/light.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/train.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/trainer.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/recognizer.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+    </favorites_list>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="trainer.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trainer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#22#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="train.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/train.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="light.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/light.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hand.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="hand.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hand.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1387">
-              <caret line="109" column="42" lean-forward="false" selection-start-line="109" selection-start-column="42" selection-end-line="109" selection-end-column="42" />
+            <state relative-caret-position="304">
+              <caret line="52" column="42" lean-forward="false" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
-                <element signature="e#440#1687#0" expanded="false" />
+                <marker date="1496924256000" expanded="false" signature="370:1626" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="recognizer.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/recognizer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -138,21 +122,19 @@
         <option value="$PROJECT_DIR$/archives/light_no_OOP.py" />
         <option value="$PROJECT_DIR$/light.py" />
         <option value="$PROJECT_DIR$/mathtools.py" />
-        <option value="$PROJECT_DIR$/hand.py" />
         <option value="$PROJECT_DIR$/othertools.py" />
         <option value="$PROJECT_DIR$/archives/learnvideo.py" />
-        <option value="$PROJECT_DIR$/recognizer.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/trainer.py" />
         <option value="$PROJECT_DIR$/train.py" />
+        <option value="$PROJECT_DIR$/recognizer.py" />
+        <option value="$PROJECT_DIR$/hand.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="81" />
-    <option name="y" value="23" />
-    <option name="width" value="1359" />
-    <option name="height" value="877" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -206,34 +188,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CVCracker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CVCracker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="train_hand" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CVCracker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CVCracker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="archives" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope">
@@ -256,6 +210,8 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="FullScreen" value="true" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -266,14 +222,15 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/raw_train_materials" />
+      <recent name="$PROJECT_DIR$/instructions" />
+      <recent name="$PROJECT_DIR$/archives" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/test_im" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/archives" />
-      <recent name="$PROJECT_DIR$/test_im" />
-      <recent name="$PROJECT_DIR$/learnknn" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -474,6 +431,14 @@
       <option name="presentableId" value="Default" />
       <updated>1494657628170</updated>
     </task>
+    <task id="LOCAL-00001" summary="test pycharm vcs integration">
+      <created>1496840615804</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1496840615804</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -486,19 +451,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="81" y="23" width="1359" height="877" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16482708" sideWeight="0.49538866" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32853717" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26258993" sideWeight="0.5021299" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32853717" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3441247" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3435294" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992035" sideWeight="0.4978701" order="8" side_tool="false" content_ui="tabs" x="451" y="354" width="1292" height="282" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4028777" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30588236" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15555556" sideWeight="0.49058825" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282353" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24944812" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30695444" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1741486" sideWeight="0.5046113" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15555556" sideWeight="0.50941175" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993174" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -528,6 +494,16 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1749226" sideWeight="0.5049628" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -569,94 +545,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/archives/learnknn/pca_knn_class.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/archives/learnknn/pca_gen_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/archives/learnknn/pca_knnexample.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/archives/learnknn/pca_imtools.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/archives/archive.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_im/test3.jpg">
+    <entry file="file://$PROJECT_DIR$/archives/material_light/64982.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/material_hand/719428356.jpg">
+    <entry file="file://$PROJECT_DIR$/archives/material_light/34921.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/material_hand/876345192.jpg">
+    <entry file="file://$PROJECT_DIR$/archives/material_light/46137.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/material_hand/213895476.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="16" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/material_light/78946.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/material_light/64982.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/material_light/34921.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/material_light/46137.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/material_light/57481.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_im/98564.jpg">
+    <entry file="file://$PROJECT_DIR$/archives/material_light/57481.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -666,11 +570,6 @@
         <state relative-caret-position="361">
           <caret line="19" column="53" lean-forward="false" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_im/real2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_im/real3.jpg">
@@ -706,34 +605,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mathtools.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/digits.png">
+    <entry file="file://$PROJECT_DIR$/test_im/real1.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/穿线法参考图.jpg">
+    <entry file="file://$PROJECT_DIR$/archives/material_light/19563.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_im/reality.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/material_light/19563.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/material_hand/148623975.jpg">
+    <entry file="file://$PROJECT_DIR$/archives/material_hand/148623975.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -770,32 +652,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="29" column="29" lean-forward="false" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recognizer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hand.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1387">
-          <caret line="109" column="42" lean-forward="false" selection-start-line="109" selection-start-column="42" selection-end-line="109" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <element signature="e#440#1687#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/trainer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -806,10 +662,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/instructions/穿线法参考图.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recognizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" column="11" lean-forward="true" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        <state relative-caret-position="418">
+          <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -818,9 +687,109 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/light.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        <state relative-caret-position="342">
+          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raw_train_materials/digits.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_im/98564.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_im/81396.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_im/34921.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_im/final.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_im/maybe.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_im/test3.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_im/bad_light1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_im/bad_light2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_im/light2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_im/light1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_im/real2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archives/temp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_im/board.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mathtools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hand.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="52" column="42" lean-forward="false" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1496924256000" expanded="false" signature="370:1626" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
