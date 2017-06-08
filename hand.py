@@ -78,7 +78,7 @@ class HandRecognizer(Recognizer):
                                         np.array(target, dtype=np.float32))
 
         self.im = cv2.warpPerspective(self.im, H, (sudoku_width, sudoku_height))
-        # self._debug(self.im)
+        self._debug(self.im)
 
     def find_target_recs(self):  # 恢复现实顺序
         self.filter_contours()  # 以后程序的正确运行的前提：这九个轮廓就是目标轮廓
