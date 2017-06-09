@@ -10,7 +10,11 @@ class HandRecognizer(Recognizer):
         ret, self.im = cv2.threshold(self.im, 150, 255, cv2.THRESH_BINARY)# 不够白的都变黑
 
     def filter_contours(self):
-        """筛选出九个矩形格子"""
+        """
+        筛选出九个矩形格子
+        筛选条件：覆盖矩形不旋转过度，面积够大
+        聚集、等大
+        """
         def legal(rec):
             (cx, cy), (w, h), angle = rec
 
@@ -21,31 +25,48 @@ class HandRecognizer(Recognizer):
 
             for d in directions:
                 if (abs(abs(angle) - d) < ROTATE_BOUND and d in (90, 270)):
-                    rec = (rec[0], (h, w), rec[2])
-                    # print(rec)
+                    w, h = h, w  # todo 一开始试图修改rec造成遗忘，   规定：尽量不要用下标
                     break
 
             # return abs(w / h - ASPECT_RATIO) < ASPECT_RATIO * PROPORTION
             return (any(abs(abs(angle) - d) < ROTATE_BOUND for d in directions) and
-                    abs(rec[1][0] / rec[1][1] - ASPECT_RATIO) < ASPECT_RATIO * PROPORTION)
+                    abs(w / h - ASPECT_RATIO) < ASPECT_RATIO * PROPORTION and
+                    SODOKU_WEIGHT * LOW_THRESHOLD < w < SODOKU_WEIGHT * HIGH_THRESHOLD and
+                    SODOKU_HEIGHT * LOW_THRESHOLD < h < SODOKU_HEIGHT * HIGH_THRESHOLD)
 
 
-        ROTATE_BOUND = 10
-        ASPECT_RATIO = 28 / 16
-        PROPORTION = 1 / 5
+        ROTATE_BOUND = 10  # 最多旋转几度
+        ASPECT_RATIO = 28 / 16  # 标准宽高比
+        PROPORTION = 1 / 5  # 和标准宽高比的最大差别界限
+
+        LOW_THRESHOLD = 0.6
+        HIGH_THRESHOLD = 1.4
+
+        SODOKU_WEIGHT = 50  # 非常重要的两个参数，需要实际测量填写，足以决定成败
+        SODOKU_HEIGHT = 28  # 当前宽高估计值
 
         self.recs = list(map(cv2.minAreaRect, self.contours))  # array([(cx, cy), (w, h), angle])
 
-        # todo 轮廓识别准确度优化，要做得更鲁棒才行
         self.recs = list(filter(legal, self.recs))  # 过滤过度旋转的矩形
-        self.recs.sort(key=lambda it: it[1][0] * it[1][1], reverse=True)  # 根据面积排序
-        self.recs = self.recs[:9]
+        self.recs.sort(key=lambda it: it[1][0] * it[1][1], reverse=True)  # 过滤出面积前15大的矩形
+        self.recs = self.recs[:15]
+
+        if len(self.recs) < 9:
+            pass  # todo 异常处理
+
+        # 聚集筛选
+        dist_sums = []
+        for i in range(len(self.recs)):
+            dist_sums.append(sum(dist(self.recs[i][0], self.recs[j][0])
+                                 for j in range(len(self.recs)) if i != j))
+        self.recs = [tp[0] for tp in sorted(zip(self.recs, dist_sums),
+                                            key=lambda it: it[1])[:9]]
 
         # for rec in self.recs:
         #     box = cv2.boxPoints(rec)
         #     box = np.int0(box)
         #     cv2.drawContours(self.im, [box], 0, 100, 2)
-        # self._debug()
+        # self._debug(self.im)
 
     def choose_target_perspective(self):
         RectCorner = namedtuple('RectCorner', ['lu', 'ru', 'ld', 'rd'])
@@ -99,8 +120,7 @@ class HandRecognizer(Recognizer):
         Recognizer.loop_process(self, func, pad=0.05)
 
     def init_knn(self):
-        # todo pickle it
-        train_im = cv2.imread('digits.png', 0)
+        train_im = cv2.imread('raw_train_materials/digits.png', 0)
         x = np.array([np.hsplit(row, 100) for row in np.vsplit(train_im, 50)])  # 切割开素材
         train_data = x[5:, :].reshape(-1, 400).astype(np.float32)  # (4500, 400)
 
@@ -137,4 +157,4 @@ class HandRecognizer(Recognizer):
 
 
 if __name__ == '__main__':
-    HandRecognizer('test_im/real3.jpg')
+    HandRecognizer('test_im/real17498.jpg')

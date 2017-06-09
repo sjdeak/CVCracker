@@ -21,3 +21,22 @@ print(neighbours)
 print(dist)
 
 plt.show()
+
+
+import numpy as np
+import cv2
+from matplotlib import pyplot as plt
+
+img = cv2.imread('digits.png', 0)
+
+cells = [np.hsplit(row, 100) for row in np.vsplit(img, 50)]
+
+x = np.array(cells)  # 50x100张图片，每个数字各500张 (50,100,400)
+
+train_data = x[5:, :].reshape(-1, 400).astype(np.float32)  # (4500, 400)
+
+k = np.arange(1, 10)
+train_label = np.repeat(k, 500)[:, np.newaxis]  # (4500, 1)
+
+self.knn = cv2.ml.KNearest_create()
+self.knn.train(train_data, cv2.ml.ROW_SAMPLE, train_label)

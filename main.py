@@ -5,7 +5,8 @@ from light import LightRecognizer
 from tkinter import *
 import tktools
 
-FILE_NAME = 'test_im/real1.jpg'
+# 千万记得先设置好SODOKU_WIDTH, SODOKU_HEIGHT
+FILE_NAME = 'test_im/real5.jpg'
 
 hr = HandRecognizer(FILE_NAME)
 light_im = hr.crop_light_image()
