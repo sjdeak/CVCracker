@@ -1,20 +1,8 @@
-import cv2
-import numpy as np
-from hand import HandRecognizer
-from light import LightRecognizer
 from tkinter import *
 import tktools
 
-# 千万记得先设置好SODOKU_WIDTH, SODOKU_HEIGHT
-FILE_NAME = 'test_im/real5.jpg'
-
-hr = HandRecognizer(FILE_NAME)
-light_im = hr.crop_light_image()
-lr = LightRecognizer(light_im, already_read=True)
-
 root = Tk()
 root.geometry('300x300')
-
 
 Label(text=''.join(str(n) for n in lr.result), relief=GROOVE).grid(row=0, columnspan=3, sticky=NSEW)
 hand_result = np.array(hr.result, dtype=np.uint8).reshape(3,3)
@@ -25,7 +13,4 @@ for i in range(3):
         Label(text=str(n), relief=GROOVE).grid(row=i+1, column=j, sticky=NSEW)
 
 tktools.set_grid_stretchable(root)
-
 mainloop()
-
-# todo shift + cmd + () ""...

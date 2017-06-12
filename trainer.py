@@ -1,16 +1,7 @@
 import os, cv2, shutil
 from hand import HandRecognizer
 from othertools import rand_name
-
-TRAIN_SIZE = (100, 55)
-
-
-def init_dir():
-    shutil.rmtree('train_hand')
-    os.mkdir('train_hand')
-    for i in range(1, 10):
-        os.mkdir('train_hand/{}'.format(i))
-
+from args import TRAIN_SIZE
 
 class HandTrainer(HandRecognizer):
     def __init__(self, imname):
@@ -38,5 +29,4 @@ class VideoHandTrainer(HandTrainer):
 
 
 if __name__ == '__main__':
-    init_dir()
     HandTrainer('material_hand/148623975.jpg')

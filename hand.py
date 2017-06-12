@@ -1,13 +1,15 @@
-import cv2
+import cv2, operator
 import numpy as np
 from mathtools import dist
 from collections import namedtuple
 from recognizer import Recognizer
+from args import *
+
 
 class HandRecognizer(Recognizer):
     def raw_im_process(self):
         self.im = cv2.cvtColor(self.raw_im, cv2.COLOR_BGR2GRAY)
-        ret, self.im = cv2.threshold(self.im, 150, 255, cv2.THRESH_BINARY)# 不够白的都变黑
+        ret, self.im = cv2.threshold(self.im, 150, 255, cv2.THRESH_BINARY)  # 不够白的都变黑
 
     def filter_contours(self):
         """
@@ -91,20 +93,25 @@ class HandRecognizer(Recognizer):
                             self.raw_corners[6].ld, self.raw_corners[8].rd)
         sudoku_width = int(max(dist(sudoku.lu, sudoku.ru), dist(sudoku.ld, sudoku.rd)))
         sudoku_height = int(max(dist(sudoku.lu, sudoku.ld), dist(sudoku.ru, sudoku.rd)))
-        # print(sudoku, '|', sudoku_width, sudoku_height)
-        target = ((0, 0), (sudoku_width, 0), (0, sudoku_height), (sudoku_width, sudoku_height))
 
+        tar1 = ((0, 0), (sudoku_width, 0), (0, sudoku_height), (sudoku_width, sudoku_height))
+        H1 = cv2.getPerspectiveTransform(np.array(sudoku, dtype=np.float32),
+                                        np.array(tar1, dtype=np.float32))
+        self.im = cv2.warpPerspective(self.im, H1, (sudoku_width, sudoku_height))
 
-        H = cv2.getPerspectiveTransform(np.array(sudoku, dtype=np.float32),
-                                        np.array(target, dtype=np.float32))
+        tar2 = ((0, 1 / 2 * sudoku_height), (sudoku_width, 1 / 2 * sudoku_height),
+                  (0, 1 / 2 * sudoku_height + sudoku_height),
+                  (sudoku_width, 1 / 2 * sudoku_height + sudoku_height))
+        H2 = cv2.getPerspectiveTransform(np.array(sudoku, dtype=np.float32),
+                                         np.array(tar2, dtype=np.float32))
+        self.raw_im = cv2.warpPerspective(self.raw_im, H2, (sudoku_width, int(3 / 2 * sudoku_height)))
+        self.light = self.raw_im[0: int(1 / 2 * sudoku_height), :]
 
-        self.im = cv2.warpPerspective(self.im, H, (sudoku_width, sudoku_height))
-        self._debug(self.im)
+        # self._debug(self.light)
 
     def find_target_recs(self):  # 恢复现实顺序
         self.filter_contours()  # 以后程序的正确运行的前提：这九个轮廓就是目标轮廓
         self.choose_target_perspective()
-
 
         self.find_contours()
         self.recs = list(map(cv2.boundingRect, self.contours))
@@ -120,40 +127,26 @@ class HandRecognizer(Recognizer):
         Recognizer.loop_process(self, func, pad=0.05)
 
     def init_knn(self):
-        train_im = cv2.imread('raw_train_materials/digits.png', 0)
-        x = np.array([np.hsplit(row, 100) for row in np.vsplit(train_im, 50)])  # 切割开素材
-        train_data = x[5:, :].reshape(-1, 400).astype(np.float32)  # (4500, 400)
-
-        k = np.arange(1, 10)
-        train_label = np.repeat(k, 500)[:, np.newaxis]  # (4500, 1)
+        with np.load(MATERIAL_FILE) as db:
+            train_data = db['train_data']
+            train_label = db['train_label']
 
         self.knn = cv2.ml.KNearest_create()
         self.knn.train(train_data, cv2.ml.ROW_SAMPLE, train_label)
 
     def single_recognize(self, im):
         # self._debug(im)
-        im = cv2.resize(im, (20, 20))
-        # todo 自己训练样本时记得去掉这行
-        im = 255 - im  # 训练数据是黑底白字的
+        im = cv2.resize(im, TRAIN_SIZE)
 
-        im = im.reshape(-1, 400).astype(np.float32)
-        retval, results, neign_resp, dists = self.knn.findNearest(im, 3)
+        if 'cv_dight' in MATERIAL_FILE:
+            im = 255 - im  # opencv自带的训练数据是黑底白字的
+
+        im = im.reshape(-1, operator.mul(*TRAIN_SIZE)).astype(np.float32)
+        retval, results, neign_resp, dists = self.knn.findNearest(im, 1)  # 目前看来k=1效果更好
         return int(results[0][0])
 
     def crop_light_image(self):
-        rec0 = self.raw_corners[0].lu
-        rec2 = self.raw_corners[2].lu
-        w, h = (self.raw_corners[0].ru[0] - self.raw_corners[0].lu[0],
-                self.raw_corners[0].ld[1] - self.raw_corners[0].lu[1])
-
-        x0, y0 = map(int, (rec0[0] + 1 / 2 * w, rec0[1] - 3 / 2 * h))  # light 左上角
-        x1, y1 = map(int, (rec2[0] + 1 / 2 * w, rec2[1] - 1 / 8 * h))  # light 右下角
-
-        # self._debug(self.raw_im[y0:y1, x0:x1])
-
-        y0, y1 = 0 if y0 < 0 else y0, 0 if y1 < 0 else y1  # todo 高度超出怎么办
-
-        return self.raw_im[y0:y1, x0:x1]
+        return self.light
 
 
 if __name__ == '__main__':

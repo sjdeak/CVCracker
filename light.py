@@ -1,9 +1,7 @@
 import cv2
 import numpy as np
 from recognizer import Recognizer
-
-# todo 去掉白光
-RED = (np.array([0, 0, 210]), np.array([255, 255, 255]))
+from args import RED
 
 
 class LightRecognizer(Recognizer):
@@ -19,7 +17,10 @@ class LightRecognizer(Recognizer):
     }
 
     def raw_im_process(self):
+        # todo 亮度二值化...?
+        # self._debug(self.raw_im)
         self.im = cv2.inRange(self.raw_im, *RED)
+        # self._debug(self.im)
 
     def find_target_recs(self):
         # todo 检查五个轮廓距离是否够近
@@ -30,7 +31,8 @@ class LightRecognizer(Recognizer):
 
     def check_line(self, pos, direction, im):
         h, w = im.shape
-        dis = im.shape[1] // 7  # 宽度的1/4
+        dis = w // 6  # 宽度的1/4
+        cnt = 0
 
         for i in range(-dis, dis):
             p = list(pos)
@@ -39,13 +41,21 @@ class LightRecognizer(Recognizer):
             nr, nc = p
             if not (nr in range(h) and nc in range(w)):
                 continue
-            # todo 不能1个白点就判1
+
             if im[nr, nc] == 255:
+                im[nr, nc] = 100
+                cnt += 1
+            else:
+                im[nr, nc] = 100
+
+            if cnt >= 2:
                 return 1
         else:
             return 0
 
     def single_recognize(self, im):
+        im = cv2.resize(im, None, fx=3, fy=3) # todo 放大四倍 会修改颜色!?
+        ret, im = cv2.threshold(im, 150, 255, cv2.THRESH_BINARY)
         h, w = im.shape
 
         if h / w > 2.5:
@@ -54,10 +64,10 @@ class LightRecognizer(Recognizer):
         ch, cw = (h // 2, w // 2)
         offset = w // 8
 
-        a, d = (0, cw), (h, cw)
+        a, d = (0, cw), (h, cw - offset)
         b, f = (ch // 2, offset), (ch // 2, w)
         c, e = (ch + ch // 2, 0), (ch + ch // 2, w - offset)
-        g = (ch, cw)
+        g = (ch, cw -  offset // 2)
 
         ver, hor = 0, 1
         checkpoints = [a, b, c, d, e, f, g]
@@ -65,12 +75,13 @@ class LightRecognizer(Recognizer):
 
         res = tuple(self.check_line(*it, im)
                        for it in zip(checkpoints, check_directions))
+        # self._debug(im)
 
         try:
             return LightRecognizer.DIGIT[res]
         except KeyError:
             print('Error', res)
-            return 'Error!'
+            return 'X'
 
 
 if __name__ == '__main__':

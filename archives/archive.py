@@ -40,3 +40,5 @@ train_label = np.repeat(k, 500)[:, np.newaxis]  # (4500, 1)
 
 self.knn = cv2.ml.KNearest_create()
 self.knn.train(train_data, cv2.ml.ROW_SAMPLE, train_label)
+
+
