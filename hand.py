@@ -11,11 +11,22 @@ class HandRecognizer(Recognizer):
         self.im = cv2.cvtColor(self.raw_im, cv2.COLOR_BGR2GRAY)
         ret, self.im = cv2.threshold(self.im, 150, 255, cv2.THRESH_BINARY)  # 不够白的都变黑
 
+    def resume_order(self, arr, ykey, xkey):
+        # 恢复现实顺序
+        # 0 1 2
+        # 3 4 5
+        # 6 7 8
+        arr.sort(key=ykey)  # 先按y轴排序
+        temp = [sorted(arr[i:i + 3], key=xkey)
+                for i in range(0, 9, 3)]  # 每三个一组按x轴排序
+        return temp[0] + temp[1] + temp[2]
+
     def filter_contours(self):
         """
         筛选出九个矩形格子
         筛选条件：覆盖矩形不旋转过度，面积够大
         聚集、等大
+        最终self.recs里面放的还是minAreaRect的结果
         """
         def legal(rec):
             (cx, cy), (w, h), angle = rec
@@ -64,11 +75,6 @@ class HandRecognizer(Recognizer):
         self.recs = [tp[0] for tp in sorted(zip(self.recs, dist_sums),
                                             key=lambda it: it[1])[:9]]
 
-        # for rec in self.recs:
-        #     box = cv2.boxPoints(rec)
-        #     box = np.int0(box)
-        #     cv2.drawContours(self.im, [box], 0, 100, 2)
-        # self._debug(self.im)
 
     def choose_target_perspective(self):
         RectCorner = namedtuple('RectCorner', ['lu', 'ru', 'ld', 'rd'])
@@ -80,14 +86,8 @@ class HandRecognizer(Recognizer):
             # print('test box orders', box)
             self.raw_corners.append(RectCorner(*box))  # raw_corners: 九个格子的四个角
 
-        # 恢复现实顺序
-        # 0 1 2
-        # 3 4 5
-        # 6 7 8
-        self.raw_corners.sort(key=lambda it: it.lu[1]) # 先按y轴排序
-        temp = [sorted(self.raw_corners[i:i + 3], key=lambda it: it.lu)
-                    for i in range(0, 9, 3)]  # 每三个一组按x轴排序
-        self.raw_corners = temp[0] + temp[1] + temp[2]
+        self.raw_corners = self.resume_order(self.raw_corners,
+                                             ykey=lambda it: it.lu[1], xkey=lambda it: it.lu)
 
         sudoku = RectCorner(self.raw_corners[0].lu, self.raw_corners[2].ru,
                             self.raw_corners[6].ld, self.raw_corners[8].rd)
@@ -116,10 +116,8 @@ class HandRecognizer(Recognizer):
         self.find_contours()
         self.recs = list(map(cv2.boundingRect, self.contours))
         self.recs.sort(key=lambda it: it[2] * it[3], reverse=True)
-        self.recs = sorted(self.recs[:9], key=lambda it: it[1])
-        temp = [sorted(self.recs[i:i + 3], key=lambda it: it[0])
-                for i in range(0, 9, 3)]  # 每三个一组按x轴排序
-        self.recs = temp[0] + temp[1] + temp[2]
+        self.recs = self.resume_order(self.recs[:9],
+                                      ykey=lambda it: it[1], xkey=lambda it: it[0])
 
 
     def loop_process(self, func):

@@ -3,6 +3,7 @@ import numpy as np
 from collections import Counter
 from hand import HandRecognizer
 from light import LightRecognizer
+from localize import Localizer
 from args import VIDEO
 
 # hand手工训练
@@ -36,11 +37,9 @@ def read_invert_frame(cap):
 
 def solve(light, hand):
     """根据识别结果做出最终判断"""
-    # Counter
     cnter = Counter(hand)
-    for n in light:
-        if cnter[n] != 1:
-            return False
+    if not all(cnter[n] == 1 for n in light):
+        return False
 
     return [hand.index(n) for n in light]
 
@@ -66,6 +65,9 @@ def mainloop():
         response = cv2.waitKey(100)
         if response == ord('q'):
             break
+
+        if response == ord('r'):
+            print(Localizer(frame, already_read=True).move_value())
 
         if response == ord('t'):
             # 图像抖动 ok
