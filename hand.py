@@ -77,6 +77,7 @@ class HandRecognizer(Recognizer):
 
 
     def choose_target_perspective(self):
+        """透视变换"""
         RectCorner = namedtuple('RectCorner', ['lu', 'ru', 'ld', 'rd'])
         self.raw_corners = []
         for i, rec in enumerate(self.recs):

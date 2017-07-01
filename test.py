@@ -9,7 +9,7 @@ from args import VIDEO
 # hand手工训练
 # light优化
 # weird num 冲突处理
-# todo 串口
+# 串口
 
 # 半自动化：操作手处理后两位
 # 各数字黑色像素点数统计，用于猜测数字
@@ -30,10 +30,12 @@ def single_frame_test(im, already_read=False):
         return False, 0, 0
 
 
-def read_invert_frame(cap):
+def read_frame(cap, invert=False):
     ret, frame = cap.read()
-    return ret, frame[::-1, ::-1]
-
+    if invert and ret:
+        return ret, frame[::-1, ::-1]
+    else:
+        return ret, frame
 
 def solve(light, hand):
     """根据识别结果做出最终判断"""
@@ -51,7 +53,7 @@ def mainloop():
     sum_light, sum_hand = 0, 0
 
     while True:
-        ret, frame = read_invert_frame(cap)
+        ret, frame = read_frame(cap)
 
         if not ret:
             if CAL_ACCURACY_MODE:
@@ -67,7 +69,7 @@ def mainloop():
             break
 
         if response == ord('r'):
-            print(Localizer(frame, already_read=True).move_value())
+            print(Localizer(frame, already_read=True).get_move_value())
 
         if response == ord('t'):
             # 图像抖动 ok
@@ -75,7 +77,7 @@ def mainloop():
                 try:
                     state, light, hand = single_frame_test(frame, already_read=True)
                     if not state:
-                        ret, frame = read_invert_frame(cap)
+                        ret, frame = read_frame(cap, invert=True)
                     else:
                         print(solve(light, hand))
                         break
@@ -94,6 +96,55 @@ def mainloop():
             else:
                 cv2.waitKey(0)
 
+
+def simple_loop():
+    cap = cv2.VideoCapture(VIDEO)
+
+    while True:
+        ret, frame = read_frame(cap, invert=True)
+
+        if not ret:
+            break
+
+        cv2.imshow('frame', frame)
+        response = cv2.waitKey(10)
+        if response == ord('q'):
+            break
+
+        if response == ord('l'):  # 调试Localizer
+            loc = Localizer(frame, already_read=True)
+            font = cv2.FONT_HERSHEY_SIMPLEX
+            frame = frame.copy()
+            cv2.putText(frame, str(loc.get_move_value()), (100, 100), font, 4, (0, 0, 255), 1)
+            cv2.circle(frame, loc.vision_center[::-1], 2, (0,0,255))
+            cv2.circle(frame, loc.board_center[::-1], 2, (0,0,255))
+            cv2.imshow('frame', frame)
+            response = cv2.waitKey(0)
+
+
+        if response == ord('r'):
+            for i in range(3):
+                try:
+                    state, light, hand = single_frame_test(frame, already_read=True)
+                    if not state:
+                        ret, frame = read_frame(cap)
+                    else:
+                        print(solve(light, hand))
+                        break
+                except:
+                    pass
+            else:
+                print('Error')
+
+            cv2.waitKey(0)
+
 if __name__ == '__main__':
     # single_frame_test('test_im/wrong3.jpg')
-    mainloop()
+    # mainloop()
+    simple_loop()
+
+    # im = cv2.imread('test_im/wrong3.jpg')
+    # font = cv2.FONT_HERSHEY_SIMPLEX
+    # cv2.putText(im, 'hi', (10, 200), font, 4, (255, 255, 255), 2)
+    # cv2.imshow('hi', im)
+    # cv2.waitKey(0)

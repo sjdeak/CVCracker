@@ -8,6 +8,7 @@
 ## 1-预先配置部分参数
 - `SODOKU_WIDTH`
 - `SODOKU_HEIGHT`
+- `TRAIN_SIZE`
 
 ## 2-准备训练素材
 用摄像头录一段大神符录像后运行`crop_material.py`

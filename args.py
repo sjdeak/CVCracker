@@ -17,10 +17,19 @@ MATERIAL_FILE = 'trained_knn_models/full_train_hand.npz'  # 整理好了的训�
 TRAIN_SIZE = (100, 55)
 
 # test.py
-VIDEO = 'test_im/real_video_part.m4v'
+# VIDEO = 'test_im/real_video_part.m4v'
+VIDEO = 'raw_train_materials/material.m4v'
 
 # light.py
 RED = (np.array([0, 0, 210]), np.array([255, 255, 255]))
 
 # train.py
 # TRAIN_SIZE
+
+# localizer验证
+# todo 换上官方素材
+# todo light.py HSV过滤红色
+# todo 参数管理模块
+# todo 小符模式
+# todo main.py 主循环
+# todo linux下跑一遍
