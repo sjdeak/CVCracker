@@ -99,6 +99,8 @@ class HandRecognizer(Recognizer):
                                         np.array(tar1, dtype=np.float32))
         self.im = cv2.warpPerspective(self.im, H1, (sudoku_width, sudoku_height))
 
+        # self._debug(self.im)
+
         tar2 = ((0, 1 / 2 * sudoku_height), (sudoku_width, 1 / 2 * sudoku_height),
                   (0, 1 / 2 * sudoku_height + sudoku_height),
                   (sudoku_width, 1 / 2 * sudoku_height + sudoku_height))

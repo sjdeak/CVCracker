@@ -13,11 +13,11 @@ HIGH_THRESHOLD = 1.4
 SODOKU_WEIGHT = 50  # 非常重要的两个参数，需要实际测量填写
 SODOKU_HEIGHT = 28  # 当前宽高估计值
 
-MATERIAL_FILE = 'trained_knn_models/train_hand.npz'  # 整理好了的训练样本文件地址
+MATERIAL_FILE = 'trained_knn_models/full_train_hand.npz'  # 整理好了的训练样本文件地址
 TRAIN_SIZE = (100, 55)
 
 # test.py
-VIDEO = 'test_im/real_video.m4v'
+VIDEO = 'test_im/real_video_part.m4v'
 
 # light.py
 RED = (np.array([0, 0, 210]), np.array([255, 255, 255]))
