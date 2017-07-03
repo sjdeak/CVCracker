@@ -6,15 +6,7 @@ from light import LightRecognizer
 from localize import Localizer
 from args import VIDEO
 
-# hand手工训练
-# light优化
-# weird num 冲突处理
-# 串口
 
-# 半自动化：操作手处理后两位
-# 各数字黑色像素点数统计，用于猜测数字
-# 自定义异常
-# 文档、注释
 CAL_ACCURACY_MODE = False
 
 def single_frame_test(im, already_read=False):

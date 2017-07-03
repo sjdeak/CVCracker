@@ -1,6 +1,5 @@
 import numpy as np
-
-# 视频颠倒时用read_invert_frame
+from configparser import ConfigParser
 
 # hand.py
 ROTATE_BOUND = 10  # 最多旋转几度
@@ -10,8 +9,11 @@ PROPORTION = 1 / 5  # 和标准宽高比的最大差别界限
 LOW_THRESHOLD = 0.6
 HIGH_THRESHOLD = 1.4
 
-SODOKU_WEIGHT = 50  # 非常重要的两个参数，需要实际测量填写
-SODOKU_HEIGHT = 28  # 当前宽高估计值
+cfg = ConfigParser()
+cfg.read('config.ini', encoding='utf8')
+
+SUDOKU_WIDTH = cfg.getint('sudoku', 'sudoku_width', fallback='50')
+SUDOKU_HEIGHT = cfg.getint('sudoku', 'sudoku_height', fallback='28')
 
 MATERIAL_FILE = 'trained_knn_models/full_train_hand.npz'  # 整理好了的训练样本文件地址
 TRAIN_SIZE = (100, 55)
@@ -22,14 +24,3 @@ VIDEO = 'raw_train_materials/material.m4v'
 
 # light.py
 RED = (np.array([0, 0, 210]), np.array([255, 255, 255]))
-
-# train.py
-# TRAIN_SIZE
-
-# localizer验证
-# todo 换上官方素材
-# todo light.py HSV过滤红色
-# todo 参数管理模块
-# todo 小符模式
-# todo main.py 主循环
-# todo linux下跑一遍
