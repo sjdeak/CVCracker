@@ -1,7 +1,5 @@
 # SJDEAK
-__*__
 .idea/workspace.xml
-number/
 test_im/real_video.m4v
 test_im/real_video_part.m4v
 trained_knn_models/

@@ -2,21 +2,879 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39a2be9c-2f73-4394-8e94-35f824fc6ad6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/args.py" afterPath="$PROJECT_DIR$/args.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/instructions/README.md" afterPath="$PROJECT_DIR$/instructions/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.py" afterPath="$PROJECT_DIR$/test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00003.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00006.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00008.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00014.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00023.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00024.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00040.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00059.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00067.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00070.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00072.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00077.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00078.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00099.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00102.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00104.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00105.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00112.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00113.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00124.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00128.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00134.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00152.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00174.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00177.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00184.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00200.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00201.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00205.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00208.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00211.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00224.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00231.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00248.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00251.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00269.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00270.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00276.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00290.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00309.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00310.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00315.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00345.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00351.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00355.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00357.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00358.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00366.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00382.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00394.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00397.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00398.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00406.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00408.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00416.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00443.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00447.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00450.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00454.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00455.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00466.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00470.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00475.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00484.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00491.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00492.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00507.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00508.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00510.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00533.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00535.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00538.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00552.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00553.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00556.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00572.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00573.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00587.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00593.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00604.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00609.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00618.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00637.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00638.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00648.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00671.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00676.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00678.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00691.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00698.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00710.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00711.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00738.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00747.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00765.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/1_/_00779.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00005.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00016.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00025.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00028.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00076.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00082.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00109.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00117.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00120.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00122.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00143.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00159.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00161.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00171.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00178.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00180.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00187.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00189.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00190.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00199.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00213.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00220.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00233.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00252.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00253.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00262.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00268.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00277.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00308.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00317.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00318.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00325.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00339.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00347.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00360.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00365.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00375.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00378.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00381.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00385.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00390.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00391.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00410.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00432.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00444.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00448.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00457.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00472.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00476.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00477.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00493.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00515.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00530.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00548.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00551.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00555.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00558.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00563.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00568.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00570.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00584.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00588.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00591.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00619.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00642.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00646.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00650.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00657.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00664.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00673.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00674.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00684.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00688.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00693.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00696.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00713.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00714.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00716.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00732.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00774.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00801.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00807.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00813.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00814.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00830.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00844.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00854.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00862.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00863.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00866.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00873.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00893.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00907.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00917.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/2_/_00931.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00007.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00010.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00012.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00027.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00030.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00044.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00049.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00050.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00074.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00086.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00098.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00107.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00111.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00130.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00135.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00136.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00149.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00157.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00179.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00181.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00198.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00203.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00207.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00215.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00228.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00235.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00242.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00250.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00254.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00255.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00279.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00281.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00291.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00298.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00321.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00327.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00330.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00341.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00356.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00361.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00392.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00405.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00425.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00433.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00452.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00459.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00479.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00486.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00490.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00495.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00500.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00509.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00540.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00546.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00549.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00557.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00561.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00574.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00581.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00613.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00629.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00643.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00645.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00659.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00670.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00675.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00695.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00715.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00731.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00752.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00760.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00767.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00789.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00808.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00811.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00840.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00843.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00856.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00857.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00861.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00867.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00874.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00875.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00878.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00890.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00895.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00909.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00953.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00966.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00975.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00983.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00992.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_00998.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_01007.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_01021.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/3_/_01035.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00002.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00009.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00020.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00026.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00053.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00058.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00060.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00061.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00064.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00089.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00092.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00115.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00127.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00131.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00139.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00142.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00150.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00163.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00164.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00166.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00194.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00217.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00222.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00237.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00257.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00271.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00272.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00275.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00289.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00292.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00294.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00297.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00314.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00329.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00336.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00338.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00342.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00354.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00363.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00369.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00372.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00373.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00379.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00380.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00402.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00412.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00413.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00414.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00438.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00442.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00461.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00481.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00531.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00541.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00564.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00569.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00576.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00585.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00590.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00605.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00606.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00616.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00647.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00655.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00661.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00663.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00677.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00680.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00682.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00692.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00697.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00700.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00706.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00717.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00718.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00729.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00742.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00746.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00749.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00754.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00797.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00804.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00828.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00834.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00842.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00847.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00848.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00850.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00851.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00855.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00877.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00882.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00894.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00896.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00897.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/4_/_00906.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00000.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00011.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00035.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00047.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00065.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00132.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00138.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00145.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00173.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00175.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00182.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00191.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00219.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00236.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00239.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00244.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00259.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00266.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00273.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00278.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00284.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00287.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00306.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00316.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00328.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00332.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00335.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00376.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00396.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00403.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00407.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00417.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00420.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00437.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00463.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00474.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00480.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00496.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00502.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00504.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00512.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00513.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00514.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00516.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00523.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00537.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00543.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00544.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00554.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00579.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00610.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00614.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00620.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00622.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00625.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00635.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00652.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00653.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00679.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00690.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00699.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00719.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00722.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00748.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00751.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00757.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00768.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00771.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00775.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00778.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00799.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00805.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00815.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00832.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00836.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00837.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00845.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00879.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00886.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00899.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00912.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00915.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00916.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00921.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00924.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00947.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00956.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00960.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00964.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00970.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_00985.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_01024.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_01032.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_01039.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/5_/_01062.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00013.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00018.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00032.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00036.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00039.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00062.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00066.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00073.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00083.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00090.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00093.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00106.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00126.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00129.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00147.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00151.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00155.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00165.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00186.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00204.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00218.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00221.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00238.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00241.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00256.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00261.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00274.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00299.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00302.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00311.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00331.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00367.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00388.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00395.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00401.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00421.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00430.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00431.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00449.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00465.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00488.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00494.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00498.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00506.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00534.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00536.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00547.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00565.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00578.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00592.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00597.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00598.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00607.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00623.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00630.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00649.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00658.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00660.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00665.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00672.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00681.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00701.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00721.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00735.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00737.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00739.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00759.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00762.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00770.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00785.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00794.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00802.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00810.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00816.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00829.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00841.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00846.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00852.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00881.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00892.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00901.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00910.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00922.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00939.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00955.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00958.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00973.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00977.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00996.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_00999.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_01020.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_01041.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_01070.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_01091.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_01092.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/6_/_01100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00015.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00029.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00038.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00042.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00052.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00071.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00079.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00084.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00091.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00096.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00101.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00103.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00123.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00140.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00141.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00148.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00158.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00168.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00185.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00193.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00196.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00212.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00214.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00223.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00230.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00243.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00258.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00263.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00288.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00301.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00305.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00307.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00324.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00337.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00340.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00349.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00353.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00370.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00371.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00377.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00384.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00387.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00411.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00422.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00426.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00436.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00446.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00467.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00468.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00478.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00483.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00497.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00505.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00511.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00518.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00521.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00522.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00560.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00562.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00567.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00586.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00599.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00608.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00611.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00617.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00624.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00632.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00634.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00636.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00640.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00644.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00651.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00654.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00683.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00686.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00703.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00723.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00724.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00728.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00730.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00750.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00753.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00773.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00786.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00795.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00798.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00803.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00819.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00820.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00824.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00839.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00853.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00868.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00880.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00883.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/7_/_00884.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00017.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00031.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00041.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00046.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00055.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00085.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00094.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00097.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00125.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00144.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00146.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00160.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00188.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00197.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00202.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00225.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00245.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00265.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00295.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00300.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00312.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00333.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00343.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00348.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00352.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00368.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00386.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00393.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00404.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00415.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00439.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00445.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00456.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00469.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00485.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00499.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00503.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00517.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00528.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00532.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00539.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00545.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00559.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00571.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00575.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00594.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00602.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00615.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00627.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00628.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00685.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00694.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00705.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00708.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00720.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00725.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00726.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00734.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00736.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00740.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00758.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00761.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00766.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00769.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00777.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00784.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00791.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00792.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00796.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00817.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00823.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00831.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00858.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00865.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00876.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00885.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00913.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00923.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00925.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00935.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00963.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00972.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_00976.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_01009.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_01013.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_01016.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_01025.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_01026.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_01045.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_01059.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_01063.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_01064.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_01067.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_01086.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/8_/_01101.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00004.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00019.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00022.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00033.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00043.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00045.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00048.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00054.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00057.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00080.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00087.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00110.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00116.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00133.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00153.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00154.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00162.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00167.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00170.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00172.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00176.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00183.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00195.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00226.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00227.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00247.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00264.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00267.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00280.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00282.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00285.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00304.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00313.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00319.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00322.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00334.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00344.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00346.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00350.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00362.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00364.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00374.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00383.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00389.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00409.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00419.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00423.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00424.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00428.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00434.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00441.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00460.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00471.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00482.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00487.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00501.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00520.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00525.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00529.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00550.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00566.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00580.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00583.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00589.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00595.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00600.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00601.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00621.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00626.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00631.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00641.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00687.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00704.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00707.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00727.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00741.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00744.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00755.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00763.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00764.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00772.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00782.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00788.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00793.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00800.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00806.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00812.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00822.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00826.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00827.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00864.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00887.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00900.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00902.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00929.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/number/9_/_00930.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/CVCracker$localize.coverage" NAME="localize Coverage Results" MODIFIED="1498884642930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CVCracker$main.coverage" NAME="main Coverage Results" MODIFIED="1499070823246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -41,8 +899,8 @@
       <file leaf-file-name="args.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/args.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+            <state relative-caret-position="322">
+              <caret line="17" column="73" lean-forward="true" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -53,8 +911,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+            <state relative-caret-position="569">
+              <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -63,8 +921,8 @@
       <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2166">
-              <caret line="120" column="33" lean-forward="false" selection-start-line="120" selection-start-column="33" selection-end-line="120" selection-end-column="33" />
+            <state relative-caret-position="346">
+              <caret line="130" column="26" lean-forward="true" selection-start-line="130" selection-start-column="26" selection-end-line="130" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -82,95 +940,8 @@
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>show</find>
-      <find>it</find>
-      <find>result</find>
-      <find>print('try'</find>
-      <find>resize</find>
-      <find>_debug</find>
-      <find>print</find>
-      <find>directions</find>
-      <find>kn</find>
-      <find>find</find>
-      <find>120</find>
-      <find>offset</find>
-      <find>pri</find>
-      <find>debug</find>
-      <find>pad</find>
-      <find>warp</find>
-      <find>asdty</find>
-      <find>dtype</find>
-      <find>dtyep</find>
-      <find>'x'</find>
-      <find>local</find>
-      <find>draw</find>
-      <find>_debu</find>
-      <find>get_move_value</find>
-      <find>read_frame</find>
-      <find># todo</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>1 / 2 * sudoku_height</replace>
-      <replace>-</replace>
-    </replaceStrings>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RESET_MODE" value="MIXED" />
-  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/archives/light_no_OOP.py" root0="FORCE_HIGHLIGHTING" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/light_recognize.py" />
-        <option value="$PROJECT_DIR$/archive.py" />
-        <option value="$PROJECT_DIR$/temp.py" />
-        <option value="$PROJECT_DIR$/script.py" />
-        <option value="$PROJECT_DIR$/knn.py" />
-        <option value="$PROJECT_DIR$/imtools" />
-        <option value="$PROJECT_DIR$/knnexample" />
-        <option value="$PROJECT_DIR$/learnknn.py" />
-        <option value="$PROJECT_DIR$/learnknn/ocv-py-tutorial-knn.py" />
-        <option value="$PROJECT_DIR$/temp" />
-        <option value="$PROJECT_DIR$/tktools.py" />
-        <option value="$PROJECT_DIR$/archives/light_no_OOP.py" />
-        <option value="$PROJECT_DIR$/mathtools.py" />
-        <option value="$PROJECT_DIR$/othertools.py" />
-        <option value="$PROJECT_DIR$/recognizer.py" />
-        <option value="$PROJECT_DIR$/archives/temp" />
-        <option value="$PROJECT_DIR$/pickle_model.py" />
-        <option value="$PROJECT_DIR$/archives/visualize_result.py" />
-        <option value="$PROJECT_DIR$/archives/crop_light_image.py" />
-        <option value="$PROJECT_DIR$/archives/archive.py" />
-        <option value="$PROJECT_DIR$/archives/learnvideo.py" />
-        <option value="$PROJECT_DIR$/light.py" />
-        <option value="$PROJECT_DIR$/trainer.py" />
-        <option value="$PROJECT_DIR$/archives/ask.md" />
-        <option value="$PROJECT_DIR$/crop_material.py" />
-        <option value="$PROJECT_DIR$/train.py" />
-        <option value="$PROJECT_DIR$/instructions/官方说明.MD" />
-        <option value="$PROJECT_DIR$/instructions/notes.md" />
-        <option value="$PROJECT_DIR$/hand.py" />
-        <option value="$PROJECT_DIR$/localize.py" />
-        <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/instructions/README.md" />
-        <option value="$PROJECT_DIR$/config.ini" />
-        <option value="$PROJECT_DIR$/args.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-      </list>
-    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -183,28 +954,6 @@
     <option name="y" value="23" />
     <option name="width" value="1842" />
     <option name="height" value="1057" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>Python</id>
-          </State>
-          <State>
-            <id>Spelling</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>PyAugmentAssignmentInspection</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -236,6 +985,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CVCracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CVCracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="instructions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -255,36 +1018,6 @@
       </pane>
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
-    <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="local&#9;FILE&#9;file:///Users/sjdeak/PycharmProjects/CVCracker/localize.py&#10;init_knn&#9;null&#9;null" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="add_unversioned_files" value="true" />
-  </component>
-  <component name="PyConsoleOptionsProvider">
-    <option name="myPythonConsoleState">
-      <console-settings module-name="CVCracker" is-module-sdk="true">
-        <option name="myUseModuleSdk" value="true" />
-        <option name="myModuleName" value="CVCracker" />
-      </console-settings>
-    </option>
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/instructions" />
-      <recent name="$PROJECT_DIR$/test_im" />
-      <recent name="$PROJECT_DIR$/raw_train_materials" />
-      <recent name="$PROJECT_DIR$/archives" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/test_im" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
-  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -297,341 +1030,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration default="false" name="hand" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="CVCracker" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hand.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="CVCracker" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="trainer" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="CVCracker" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/trainer.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="pickle_model" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="CVCracker" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="localize" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="CVCracker" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/localize.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="CVCracker" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="TARGET" value="" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
-      <node-interpreter value="project" />
-      <working-dir value="" />
-      <envs />
-      <scope-kind value="ALL" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="CVCracker" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="CVCracker" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="CVCracker" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <module name="CVCracker" />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run" />
-      <scripts />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="CVCracker" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="CVCracker" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;.&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method />
-    </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.hand" />
-      <item index="1" class="java.lang.String" itemvalue="Python.main" />
-      <item index="2" class="java.lang.String" itemvalue="Python.trainer" />
-      <item index="3" class="java.lang.String" itemvalue="Python.pickle_model" />
-      <item index="4" class="java.lang.String" itemvalue="Python.localize" />
-    </list>
-    <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.main" />
-        <item index="1" class="java.lang.String" itemvalue="Python.localize" />
-        <item index="2" class="java.lang.String" itemvalue="Python.pickle_model" />
-        <item index="3" class="java.lang.String" itemvalue="Python.hand" />
-        <item index="4" class="java.lang.String" itemvalue="Python.trainer" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="39a2be9c-2f73-4394-8e94-35f824fc6ad6" name="Default" comment="" />
-      <created>1494657628170</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1494657628170</updated>
-    </task>
-    <task id="LOCAL-00001" summary="test pycharm vcs integration">
-      <created>1496840615804</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1496840615804</updated>
-    </task>
-    <task id="LOCAL-00003" summary="sort project files">
-      <created>1496925873876</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1496925873876</updated>
-    </task>
-    <task id="LOCAL-00004" summary="before debug hand.py's perspective choose function.">
-      <created>1496926842524</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1496926842524</updated>
-    </task>
-    <task id="LOCAL-00005" summary="finish debugging choosePerspective">
-      <created>1496992502064</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1496992502064</updated>
-    </task>
-    <task id="LOCAL-00006" summary="almost finished.">
-      <created>1497238478220</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1497238478220</updated>
-    </task>
-    <task id="LOCAL-00007" summary="add localizer and change output format.">
-      <created>1497322211492</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1497322211492</updated>
-    </task>
-    <task id="LOCAL-00008" summary="增加新规则说明文件">
-      <created>1498873446638</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1498873446638</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="78" y="23" width="1842" height="1057" extended-state="6" />
@@ -641,11 +1044,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282353" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26235294" sideWeight="0.5021299" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3417431" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34111676" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282353" sideWeight="0.4978701" order="9" side_tool="false" content_ui="tabs" x="451" y="354" width="1292" height="282" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3035294" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24944812" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30558375" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36954314" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19305556" sideWeight="0.41694915" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39875776" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -658,59 +1061,6 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32588235" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
-  </component>
-  <component name="Vcs.Log.History.Properties">
-    <option name="COLUMN_ORDER">
-      <list>
-        <option value="0" />
-        <option value="2" />
-        <option value="3" />
-        <option value="1" />
-      </list>
-    </option>
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="test pycharm vcs integration" />
-    <MESSAGE value="sort project files" />
-    <MESSAGE value="before debug hand.py's perspective choose function." />
-    <MESSAGE value="finish debugging choosePerspective" />
-    <MESSAGE value="almost finished." />
-    <MESSAGE value="add localizer and change output format." />
-    <MESSAGE value="增加新规则说明文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加新规则说明文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -893,6 +1243,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#10#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -950,6 +1303,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -957,6 +1311,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="26" column="27" lean-forward="false" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -964,6 +1319,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="569">
           <caret line="34" column="24" lean-forward="false" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1009,16 +1365,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2166">
-          <caret line="120" column="33" lean-forward="false" selection-start-line="120" selection-start-column="33" selection-end-line="120" selection-end-column="33" />
+        <state relative-caret-position="346">
+          <caret line="130" column="26" lean-forward="true" selection-start-line="130" selection-start-column="26" selection-end-line="130" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/args.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        <state relative-caret-position="322">
+          <caret line="17" column="73" lean-forward="true" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -1027,8 +1383,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+        <state relative-caret-position="569">
+          <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
           <folding />
         </state>
       </provider>
