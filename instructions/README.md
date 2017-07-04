@@ -23,24 +23,36 @@
 
 # 下位机通信协议
 
+# ideas
+- 半自动化：操作手处理后两位
+- 各数字黑色像素点数统计，用于猜测数字
 
 # TODO List
 
-- hand手工训练
-- light优化
-- weird num 冲突处理
-- 串口
+- hand手工训练 √
+- light优化 √
+- weird num 冲突处理 √
 
-- 半自动化：操作手处理后两位
-- 各数字黑色像素点数统计，用于猜测数字
-- 自定义异常
-- 文档、注释
-
-- localizer验证
-- 换上官方素材
-- light.py HSV过滤红色
-- 参数管理模块
+- localizer验证  √
+- 换上官方素材  √ 效果不好
+- light.py HSV过滤红色  √ 效果不好
+- 参数管理模块  √
+- 为什么官方素材效果不好？
+- 用库组织辅助函数
 - 小符模式
 - main.py 主循环
 - linux下跑一遍
 
+- 多线程....
+- 串口
+- 自定义异常
+- 文档、注释
+
+# pits
+1. 无法从版本库中删除workspace.xml
+
+git rm 把工作树上的workspace.xml删除了
+
+workspace.xml一修改，pycharm自动add
+
+然后再commit....完了

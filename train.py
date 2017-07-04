@@ -74,6 +74,7 @@ def from_train_hand():
     np.savez('trained_knn_models/train_hand.npz', train_data=train_data, train_label=train_label)
 
 
+
 if __name__ == '__main__':
     pass
     # crop_materials()

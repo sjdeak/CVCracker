@@ -1,6 +1,7 @@
-import cv2, operator
+import os, cv2, operator
 import numpy as np
 from mathtools import dist
+from othertools import rand_name
 from collections import namedtuple
 from recognizer import Recognizer
 from args import *
@@ -100,7 +101,7 @@ class HandRecognizer(Recognizer):
                                         np.array(tar1, dtype=np.float32))
         self.im = cv2.warpPerspective(self.im, H1, (sudoku_width, sudoku_height))
 
-        # self._debug(self.im)
+        self._debug(self.im)
 
         tar2 = ((0, 1 / 2 * sudoku_height), (sudoku_width, 1 / 2 * sudoku_height),
                   (0, 1 / 2 * sudoku_height + sudoku_height),
@@ -136,8 +137,11 @@ class HandRecognizer(Recognizer):
         self.knn.train(train_data, cv2.ml.ROW_SAMPLE, train_label)
 
     def single_recognize(self, im):
-        # self._debug(im)
         im = cv2.resize(im, TRAIN_SIZE)
+        ret, im = cv2.threshold(im, 100, 255, cv2.THRESH_BINARY)
+
+        self._debug(im)
+        # cv2.imwrite(os.path.expanduser('~/Desktop/cutted/{}.jpg'.format(rand_name())), im)
 
         if 'cv_dight' in MATERIAL_FILE:
             im = 255 - im  # opencv自带的训练数据是黑底白字的
