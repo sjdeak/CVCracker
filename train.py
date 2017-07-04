@@ -2,6 +2,8 @@
 import os, cv2, shutil
 import numpy as np
 from trainer import VideoHandTrainer
+from othertools import rand_name
+from args import TRAIN_SIZE
 
 
 # MATERIAL_VIDEO = 'raw_train_materials/material.m4v'
@@ -73,11 +75,42 @@ def from_train_hand():
 
     np.savez('trained_knn_models/train_hand.npz', train_data=train_data, train_label=train_label)
 
+def resize_and_thresh(im, size, fx=0, fy=0):
+    """
+    只是包装opencv函数，没有改动接口
+    对黑白二值图像进行缩放和二值化，从而保证结果仍是黑白二值图
+    :param size: =(0, 0)时按照fx和fy推算
+    size和fx, fy至少有一方不为零
+    """
+    im = cv2.resize(im, size, fx=fx, fy=fy)
+    ret, im = cv2.threshold(im, 100, 255, cv2.THRESH_BINARY)
+    return im
+
+def from_official():
+    train_data, train_label = [], []
+
+    for dirpath, dirnames, filenames in os.walk('number'):
+        if dirpath == 'number':
+            continue
+        acNum = int(dirpath[-2])
+        for fp in filenames:
+            if fp.endswith('.png'):
+                print(os.path.join(dirpath, fp))
+                im = cv2.imread(os.path.join(dirpath, fp), 0)
+                im = resize_and_thresh(im, TRAIN_SIZE)
+                cv2.imwrite(os.path.expanduser('~/Desktop/off/{}/{}.jpg'.format(acNum, rand_name())), im)
+
+                train_data.append(im.reshape(-1, im.size))
+                train_label.append(acNum)
+
+    train_data = np.vstack(train_data).astype(np.float32)
+    train_label = np.array(train_label).reshape(-1, 1)
+
+    np.savez('trained_knn_models/official.npz', train_data=train_data, train_label=train_label)
 
 
 if __name__ == '__main__':
-    pass
     # crop_materials()
-
+    from_official()
     # from_cv_digit()
     # from_train_hand()
