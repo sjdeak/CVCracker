@@ -12,8 +12,9 @@ HIGH_THRESHOLD = 1.4
 cfg = ConfigParser()
 cfg.read('config.ini', encoding='utf8')
 
-SUDOKU_WIDTH = cfg.getint('sudoku', 'sudoku_width', fallback='50')
-SUDOKU_HEIGHT = cfg.getint('sudoku', 'sudoku_height', fallback='28')
+SUDOKU_WIDTH = cfg.getint('sudoku', 'sudoku_width', fallback=50)
+
+SUDOKU_HEIGHT = cfg.getint('sudoku', 'sudoku_height', fallback=28)
 
 MATERIAL_FILE = 'trained_knn_models/full_train_hand.npz'  # 整理好了的训练样本文件地址
 TRAIN_SIZE = (100, 55)

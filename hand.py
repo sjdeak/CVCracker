@@ -11,6 +11,7 @@ class HandRecognizer(Recognizer):
     def raw_im_process(self):
         self.im = cv2.cvtColor(self.raw_im, cv2.COLOR_BGR2GRAY)
         ret, self.im = cv2.threshold(self.im, 150, 255, cv2.THRESH_BINARY)  # 不够白的都变黑
+        # self._debug(self.im)
 
     def resume_order(self, arr, ykey, xkey):
         # 恢复现实顺序
@@ -45,24 +46,20 @@ class HandRecognizer(Recognizer):
             # return abs(w / h - ASPECT_RATIO) < ASPECT_RATIO * PROPORTION
             return (any(abs(abs(angle) - d) < ROTATE_BOUND for d in directions) and
                     abs(w / h - ASPECT_RATIO) < ASPECT_RATIO * PROPORTION and
-                    SODOKU_WEIGHT * LOW_THRESHOLD < w < SODOKU_WEIGHT * HIGH_THRESHOLD and
-                    SODOKU_HEIGHT * LOW_THRESHOLD < h < SODOKU_HEIGHT * HIGH_THRESHOLD)
+                    SUDOKU_WIDTH * LOW_THRESHOLD < w < SUDOKU_WIDTH * HIGH_THRESHOLD and
+                    SUDOKU_HEIGHT * LOW_THRESHOLD < h < SUDOKU_HEIGHT * HIGH_THRESHOLD)
 
-
-        ROTATE_BOUND = 10  # 最多旋转几度
-        ASPECT_RATIO = 28 / 16  # 标准宽高比
-        PROPORTION = 1 / 5  # 和标准宽高比的最大差别界限
-
-        LOW_THRESHOLD = 0.6
-        HIGH_THRESHOLD = 1.4
-
-        SODOKU_WEIGHT = 50  # 非常重要的两个参数，需要实际测量填写，足以决定成败
-        SODOKU_HEIGHT = 28  # 当前宽高估计值
 
         self.recs = list(map(cv2.minAreaRect, self.contours))  # array([(cx, cy), (w, h), angle])
 
         self.recs = list(filter(legal, self.recs))  # 过滤过度旋转的矩形
         self.recs.sort(key=lambda it: it[1][0] * it[1][1], reverse=True)  # 过滤出面积前15大的矩形
+
+        tmp = self.im.copy()
+        for (cx, cy), (w, h), angle in self.recs:
+            tmp = cv2.circle(tmp, (int(cx), int(cy)), 2, 100)
+        self._debug(tmp)
+
         self.recs = self.recs[:15]
 
         if len(self.recs) < 9:
