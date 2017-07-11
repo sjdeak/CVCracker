@@ -9,6 +9,9 @@ PROPORTION = 1 / 5  # 和标准宽高比的最大差别界限
 LOW_THRESHOLD = 0.6
 HIGH_THRESHOLD = 1.4
 
+HAND_FONT_THRESHOLD = 130
+OLD_FONT_THRESHOLD = 170
+
 cfg = ConfigParser()
 cfg.read('config.ini', encoding='utf8')
 

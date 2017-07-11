@@ -90,23 +90,30 @@ class HandRecognizer(Recognizer):
 
         sudoku = RectCorner(self.raw_corners[0].lu, self.raw_corners[2].ru,
                             self.raw_corners[6].ld, self.raw_corners[8].rd)
-        sudoku_width = int(max(dist(sudoku.lu, sudoku.ru), dist(sudoku.ld, sudoku.rd)))
-        sudoku_height = int(max(dist(sudoku.lu, sudoku.ld), dist(sudoku.ru, sudoku.rd)))
 
-        tar1 = ((0, 0), (sudoku_width, 0), (0, sudoku_height), (sudoku_width, sudoku_height))
+        im_sudoku_width = int(max(dist(sudoku.lu, sudoku.ru), dist(sudoku.ld, sudoku.rd)))
+        im_sudoku_height = int(max(dist(sudoku.lu, sudoku.ld), dist(sudoku.ru, sudoku.rd)))
+
+        tmp_w, tmp_h = 255, 150  # 通过固定参数来避免俯仰视造成的比例失调
+
+        tar1 = ((0, 0), (tmp_w, 0), (0, tmp_h), (tmp_w, tmp_h))
         H1 = cv2.getPerspectiveTransform(np.array(sudoku, dtype=np.float32),
                                         np.array(tar1, dtype=np.float32))
-        self.im = cv2.warpPerspective(self.im, H1, (sudoku_width, sudoku_height))
 
-        self._debug(self.im)
+        self.im = cv2.warpPerspective(self.im, H1, (tmp_w, tmp_h))
 
-        tar2 = ((0, 1 / 2 * sudoku_height), (sudoku_width, 1 / 2 * sudoku_height),
-                  (0, 1 / 2 * sudoku_height + sudoku_height),
-                  (sudoku_width, 1 / 2 * sudoku_height + sudoku_height))
+
+        # self._debug(self.im)
+
+        tar2 = ((0, 1 / 2 * im_sudoku_height), (im_sudoku_width, 1 / 2 * im_sudoku_height),
+                  (0, 1 / 2 * im_sudoku_height + im_sudoku_height),
+                  (im_sudoku_width, 1 / 2 * im_sudoku_height + im_sudoku_height))
         H2 = cv2.getPerspectiveTransform(np.array(sudoku, dtype=np.float32),
                                          np.array(tar2, dtype=np.float32))
-        self.raw_im = cv2.warpPerspective(self.raw_im, H2, (sudoku_width, int(3 / 2 * sudoku_height)))
-        self.light = self.raw_im[0: int(1 / 2 * sudoku_height), :]
+
+        tmp = cv2.warpPerspective(self.raw_im, H2, (im_sudoku_width, int(3 / 2 * im_sudoku_height)))
+        self.light = tmp[0: int(1 / 2 * im_sudoku_height), :]
+        self.raw_sudoku_im = cv2.warpPerspective(self.raw_im, H1, (tmp_w, tmp_h))
 
         # self._debug(self.light)
 
@@ -123,7 +130,12 @@ class HandRecognizer(Recognizer):
 
     def loop_process(self, func):
         self.init_knn()
-        Recognizer.loop_process(self, func, pad=0.05)
+        pad = 0.05
+        for x, y, w, h in self.recs:
+            x0, y0, x1, y1 = map(int, (x + pad * w, y + pad * h, x + w - pad * w, y + h - pad * h))
+            single = cv2.cvtColor(self.raw_sudoku_im[y0:y1, x0:x1], cv2.COLOR_BGR2GRAY)
+            # self._debug(single)
+            self.result.append(func(single))
 
     def init_knn(self):
         with np.load(MATERIAL_FILE) as db:
@@ -135,7 +147,7 @@ class HandRecognizer(Recognizer):
 
     def single_recognize(self, im):
         im = cv2.resize(im, TRAIN_SIZE)
-        ret, im = cv2.threshold(im, 100, 255, cv2.THRESH_BINARY)
+        ret, im = cv2.threshold(im, HAND_FONT_THRESHOLD, 255, cv2.THRESH_BINARY)
 
         self._debug(im)
         # cv2.imwrite(os.path.expanduser('~/Desktop/cutted/{}.jpg'.format(rand_name())), im)
@@ -152,4 +164,6 @@ class HandRecognizer(Recognizer):
 
 
 if __name__ == '__main__':
+    SUDOKU_WIDTH = 50
+    SUDOKU_HEIGHT = 28
     HandRecognizer('test_im/real17498.jpg')
