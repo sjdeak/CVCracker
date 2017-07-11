@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 from recognizer import Recognizer
 from args import RED
+from exceptions import LightImError, LightRecFail
 
 
 class LightRecognizer(Recognizer):
@@ -17,13 +18,11 @@ class LightRecognizer(Recognizer):
     }
 
     def raw_im_process(self):
-        # todo 亮度二值化...?
         # self._debug(self.raw_im)
         self.im = cv2.inRange(self.raw_im, *RED)
         # self._debug(self.im)
 
     def find_target_recs(self):
-        # todo 检查五个轮廓距离是否够近
         self.recs = list(map(cv2.boundingRect, self.contours))
         self.recs.sort(key=lambda it: it[2] * it[3], reverse=True)  # 根据面积排序
         self.recs = self.recs[:5]
@@ -54,7 +53,7 @@ class LightRecognizer(Recognizer):
             return 0
 
     def single_recognize(self, im):
-        im = cv2.resize(im, None, fx=3, fy=3) # todo 放大四倍 会修改颜色!?
+        im = cv2.resize(im, None, fx=3, fy=3)
         ret, im = cv2.threshold(im, 150, 255, cv2.THRESH_BINARY)
         h, w = im.shape
 
@@ -80,8 +79,7 @@ class LightRecognizer(Recognizer):
         try:
             return LightRecognizer.DIGIT[res]
         except KeyError:
-            print('Error', res)
-            return 'X'
+            raise LightRecFail
 
 
 if __name__ == '__main__':

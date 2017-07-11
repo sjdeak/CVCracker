@@ -5,6 +5,10 @@ from args import OLD_FONT_THRESHOLD
 
 
 class OldRecognizer(HandRecognizer):
+    def __init__(self, imname, already_read=False):
+        super(OldRecognizer, self).__init__(imname, already_read)
+        self.cal_result()
+
     def loop_process(self, func):
         pad = 0.05
         for x, y, w, h in self.recs:
@@ -28,13 +32,13 @@ class OldRecognizer(HandRecognizer):
                     if 1 / 3 * c < j < 2 / 3 * c:
                         mid_area += 1
 
-        return mid_area / black  # 中间黑色像素占整个中间部分的比例
+        return mid_area / black  # 图像中央部分黑色像素的比例
 
 
-    def get_final_result(self):
+    def cal_result(self):
         # print(*zip(self.result, range(9)), sep='\n')
-        return sorted(zip(self.result, range(9)), reverse=True)[0][1]
+        self.result = sorted(zip(self.result, range(9)), reverse=True)[0][1]
 
 
 if __name__ == '__main__':
-    print(OldRecognizer('test_im/raw_old.jpg').get_final_result())
+    print(OldRecognizer('test_im/raw_old.jpg').result)
