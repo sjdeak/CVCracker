@@ -1,6 +1,6 @@
 import os, cv2, shutil
 from hand import HandRecognizer
-from othertools import rand_name
+from pyaux.others import rand_name
 from args import TRAIN_SIZE
 
 class HandTrainer(HandRecognizer):

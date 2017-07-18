@@ -79,7 +79,7 @@ class LightRecognizer(Recognizer):
         try:
             return LightRecognizer.DIGIT[res]
         except KeyError:
-            raise LightRecFail
+            raise LightRecFail(len(self.result), res)
 
 
 if __name__ == '__main__':

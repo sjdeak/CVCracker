@@ -4,7 +4,7 @@ import math
 
 def dist(p1, p2):
     """
-    计算两点间距离
+    计算任意维度中两点间距离
     :param p1, p2: 等长序列
     :return: 距离
     """

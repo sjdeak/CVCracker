@@ -9,7 +9,6 @@ from args import VIDEO, MODE
 from serial import Serial
 from exceptions import *
 
-
 def cal_hand_targets(light, hand):
     """根据识别结果做出最终判断"""
     cnter = Counter(hand)
@@ -39,7 +38,8 @@ def mainloop():
                     hand_res = hander.result
                 except LightImError:  # 小符模式
                     targets = [OldRecognizer(im).result]
-                except LightRecFail:
+                except LightRecFail as X:
+                    print('第{}个七段管识别出错: {}', X.id, X.info)
                     continue
 
                 if not cal_hand_targets(hand_res, light_res):

@@ -2,7 +2,7 @@
 import os, cv2, shutil
 import numpy as np
 from trainer import VideoHandTrainer
-from othertools import rand_name
+from pyaux.others import rand_name
 from args import TRAIN_SIZE
 
 
