@@ -8,12 +8,13 @@ class Localizer(HandRecognizer):
         self.raw_im = imname if already_read else cv2.imread(imname)
         self.im = None
         self.recs = None
-        self.result = []  # result: 存放最终识别结果
 
         self.raw_im_process()
         self.find_contours()  # 找出所有轮廓
         self.filter_contours()
+
         self.cal_value()
+        self.move_value = self.get_move_value()
 
     def cal_value(self):
         self.recs = self.resume_order(self.recs, ykey=lambda it: it[0][1], xkey=lambda it: it[0])
@@ -38,4 +39,4 @@ class Localizer(HandRecognizer):
         return bcw - vcw, vch - bch
 
 if __name__ == '__main__':
-    print(Localizer('test_im/wrong1.jpg').get_move_value())
+    print(Localizer('test_im/wrong1.jpg').move_value)
