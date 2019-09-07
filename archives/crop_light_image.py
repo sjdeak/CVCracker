@@ -9,6 +9,6 @@ def crop_light_image(self):
 
     # self._debug(self.raw_im[y0:y1, x0:x1])
 
-    y0, y1 = 0 if y0 < 0 else y0, 0 if y1 < 0 else y1  # todo 高度超出怎么办
+    y0, y1 = 0 if y0 < 0 else y0, 0 if y1 < 0 else y1
 
     return self.raw_im[y0:y1, x0:x1]

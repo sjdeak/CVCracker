@@ -40,7 +40,7 @@ class HandRecognizer(Recognizer):
 
             for d in directions:
                 if (abs(abs(angle) - d) < ROTATE_BOUND and d in (90, 270)):
-                    w, h = h, w  # todo 一开始试图修改rec造成遗忘，   规定：尽量不要用下标
+                    w, h = h, w  # PP 一开始试图修改rec造成遗忘，   规定：尽量不要用下标
                     break
 
             # return abs(w / h - ASPECT_RATIO) < ASPECT_RATIO * PROPORTION
@@ -51,7 +51,6 @@ class HandRecognizer(Recognizer):
 
 
         self.recs = list(map(cv2.minAreaRect, self.contours))  # array([(cx, cy), (w, h), angle])
-
         self.recs = list(filter(legal, self.recs))  # 过滤过度旋转的矩形
         self.recs.sort(key=lambda it: it[1][0] * it[1][1], reverse=True)  # 过滤出面积前15大的矩形
 
@@ -72,7 +71,6 @@ class HandRecognizer(Recognizer):
                                  for j in range(len(self.recs)) if i != j))
         self.recs = [tp[0] for tp in sorted(zip(self.recs, dist_sums),
                                             key=lambda it: it[1])[:9]]
-
 
     def choose_target_perspective(self):
         """透视变换"""
@@ -104,7 +102,7 @@ class HandRecognizer(Recognizer):
 
 
         # self._debug(self.im)
-
+        # H1: 给sudoku做仿射变换  H2: 给light做仿射变换
         tar2 = ((0, 1 / 2 * im_sudoku_height), (im_sudoku_width, 1 / 2 * im_sudoku_height),
                   (0, 1 / 2 * im_sudoku_height + im_sudoku_height),
                   (im_sudoku_width, 1 / 2 * im_sudoku_height + im_sudoku_height))
